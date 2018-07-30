@@ -3,6 +3,9 @@
 	<name>caex.caex30.aml.validation</name>
 	<comment></comment>
 	<projects>
+		<project>caex.anytype</project>
+		<project>caex.caex215</project>
+		<project>caex.caex30</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>

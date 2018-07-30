@@ -43,7 +43,7 @@ public interface CAEXPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_URI = "http://www.dke.de/CAEX/300";
+	String eNS_URI = "platform:/resource/caex.caex30/model/CAEX30.ecore";
 
 	/**
 	 * The package namespace name.

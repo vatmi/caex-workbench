@@ -88,7 +88,10 @@ context caex30!InternalElement{
 	
 	constraint processContainsProcesses{
 			guard {
-				return self.roleRequirements.roleClass.name->exists(r | r = 'Process');
+			     //self.roleRequirements.roleClass.name.println();
+				return self.roleRequirements.roleClass.name->exists(r | r = "Process");
+				
+				
 			}
 			check {
 				return self.internalElement->forAll(ie | ie.roleRequirements.roleClass.name->exists(r | r = 'Process'));
@@ -101,7 +104,7 @@ context caex30!InternalElement{
 }
 
 context caex30!InternalElement{
-	
+ 
 	constraint resourceContainsResources{
 			guard {
 				return self.roleRequirements.roleClass.name->exists(r | r = 'Resource');
@@ -131,4 +134,27 @@ context caex30!InternalElement{
 			}
 	}
 }
+
+context caex30!SystemUnitClass{
+	
+	constraint ComponentContracts{
+			guard {
+				return self.supportedRoleClass.roleClass.name->exists(csuc|csuc = 'Component');
+				//return self.name->exist(suc| suc = 'Component' );
+				//return self.roleRequirements.roleClass.name->exists(r | r = 'Product');
+			}
+			check {
+				//var component =  self.systemunitclass->forAll(sus | suc.roleRequirements.roleClass.name>exists(r | r = 'Component'));
+				return self.externalInterface.name->exists(EI|EI = "Behavior");
+				
+				//return suc|suc.ExternalInterface.name>exist(r|r='Behavior'));
+				//return self.attribute->forAll(attr | attr.
+			} 
+			
+			message {
+				return 'The component' + self.name + ' should have its base behavior defined.';
+			}
+	}
+}
+
 
