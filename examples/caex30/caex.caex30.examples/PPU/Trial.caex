@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caex:CAEXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:caex="platform:/resource/caex.caex30/model/CAEX30.ecore" fileName="Trial">
+  <superiorStandardVersion>AutomationML 3.0</superiorStandardVersion>
+  <sourceDocumentInformation lastWritingDateTime="2018-07-30" originID="caex.caex30.caex.presentation.CAEXEditorID" originName="CEX 3.0 EMF editor" originProjectID="" originRelease="" originVendor="fortiss GmbH" originVendorURL="" originVersion="1.0.0"/>
+  <instanceHierarchy>
+    <internalElement name="LA">
+      <internalElement name="Process">
+        <roleRequirements roleClass="//@roleClassLib.0/@roleClass.1"/>
+      </internalElement>
+      <roleRequirements roleClass="//@roleClassLib.0/@roleClass.2" refBaseRoleClassPath="AMLRoleClassLibrary.Component"/>
+    </internalElement>
+    <internalElement name="Skill">
+      <roleRequirements roleClass="//@roleClassLib.0/@roleClass.1"/>
+    </internalElement>
+    <internalElement name="Thermometer">
+      <roleRequirements roleClass="//@roleClassLib.0/@roleClass.0"/>
+    </internalElement>
+  </instanceHierarchy>
+  <roleClassLib name="AMLRoleClassLibrary">
+    <roleClass name="Product"/>
+    <roleClass name="Process"/>
+    <roleClass name="Resource"/>
+    <roleClass name="Component">
+      <externalInterface name="Behavior">
+        <interfaceClass name="SkillTrial1"/>
+        <externalInterface name="SkillTrial"/>
+      </externalInterface>
+    </roleClass>
+  </roleClassLib>
+  <systemUnitClassLib name="Component">
+    <systemUnitClass name="Component">
+      <externalInterface name="Behavior"/>
+      <supportedRoleClass refRoleClassPath="AMLRoleClassLibrary.Component" roleClass="//@roleClassLib.0/@roleClass.3"/>
+    </systemUnitClass>
+  </systemUnitClassLib>
+</caex:CAEXFile>
