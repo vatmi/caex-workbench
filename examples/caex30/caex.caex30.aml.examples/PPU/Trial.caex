@@ -10,8 +10,8 @@
       <roleRequirements roleClass="//@roleClassLib.0/@roleClass.2" refBaseRoleClassPath="AMLRoleClassLibrary.Component"/>
     </internalElement>
     <internalElement name="Skill">
-      <externalInterface name="FbtLogicInterface" baseClass="//@interfaceClassLib.0/@interfaceClass.0/@externalInterface.0">
-        <attribute name="FbtPath" value="E:\Thesis_Repo\lab-basisautomation\fordiac-ide\D4TMaintenance\DT4Maintenance\Simulation\Gripper.fbt" attributeDataType="refURI" refAttributeType="" referenceAttribute="//@interfaceClassLib.0/@interfaceClass.0/@externalInterface.0/@attribute.0"/>
+      <externalInterface name="LogicInterface" refBaseClassPath="" baseClass="//@instanceHierarchy.0/@internalElement.1/@externalInterface.0">
+        <attribute name="refURI" value="E:\Thesis_Repo\lab-basisautomation\fordiac-ide\D4TMaintenance\DT4Maintenance\ObserverLinearActuatorDA.fbt" attributeDataType="string" refAttributeType="refURI"/>
       </externalInterface>
       <roleRequirements roleClass="//@roleClassLib.0/@roleClass.1"/>
     </internalElement>
@@ -19,13 +19,13 @@
       <roleRequirements roleClass="//@roleClassLib.0/@roleClass.0"/>
     </internalElement>
   </instanceHierarchy>
-  <interfaceClassLib name="">
-    <interfaceClass name="FbtInterfaces">
-      <externalInterface name="FbtLogicInterface" refBaseClassPath="" baseClass="//@interfaceClassLib.0/@interfaceClass.0">
-        <attribute name="FbtPath" attributeDataType="refURI" refAttributeType="" referenceAttribute="//@interfaceClassLib.0/@interfaceClass.0/@externalInterface.0/@attribute.0"/>
+  <interfaceClassLib>
+    <interfaceClass name="FBTInterfaces">
+      <externalInterface name="LogicInterface">
+        <attribute name="Path" value="" attributeDataType="string" refAttributeType="refURI"/>
       </externalInterface>
-      <externalInterface name="FbtEventInterface" baseClass="//@interfaceClassLib.0/@interfaceClass.0">
-        <attribute name="FbtEventGUID" attributeDataType="refURI" refAttributeType="" referenceAttribute="//@interfaceClassLib.0/@interfaceClass.0/@externalInterface.1/@attribute.0"/>
+      <externalInterface name="EventInterface">
+        <attribute name="Path" value="" attributeDataType="string" refAttributeType="refURI"/>
       </externalInterface>
     </interfaceClass>
   </interfaceClassLib>

@@ -2,7 +2,7 @@
 <launchConfiguration type="org.epsilon.evl.eclipse.dt.launching.EvlLaunchConfigurationDelegate">
 <booleanAttribute key="fine_grained_profiling" value="false"/>
 <listAttribute key="models">
-<listEntry value="#Sun Jul 29 12:14:35 CEST 2018&#13;&#10;isMetamodelFileBased=false&#13;&#10;name=caex30&#13;&#10;readOnLoad=true&#13;&#10;storeOnDisposal=false&#13;&#10;aliases=caex30&#13;&#10;cached=true&#13;&#10;fileBasedMetamodelUri=&#13;&#10;metamodelUri=platform\:/resource/caex.caex30/model/CAEX30.ecore&#13;&#10;modelUri=platform\:/resource/caex.caex30.examples/PPU/Trial.caex&#13;&#10;reuseUnmodifiedFileBasedMetamodels=true&#13;&#10;type=EMF&#13;&#10;modelFile=/caex.caex30.examples/PPU/Trial.caex&#13;&#10;expand=true&#13;&#10;metamodelFile="/>
+<listEntry value="#Fri Aug 03 10:56:36 CEST 2018&#13;&#10;isMetamodelFileBased=false&#13;&#10;name=caex30&#13;&#10;readOnLoad=true&#13;&#10;storeOnDisposal=false&#13;&#10;aliases=caex30&#13;&#10;cached=true&#13;&#10;fileBasedMetamodelUri=&#13;&#10;metamodelUri=platform\:/resource/caex.caex30/model/CAEX30.ecore&#13;&#10;modelUri=platform\:/resource/caex.caex30.examples/PPU/Trial.caex&#13;&#10;reuseUnmodifiedFileBasedMetamodels=true&#13;&#10;type=EMF&#13;&#10;modelFile=/caex.caex30.examples/PPU/Trial.caex&#13;&#10;expand=true&#13;&#10;metamodelFile="/>
 </listAttribute>
 <booleanAttribute key="optimizeConstraints" value="false"/>
 <listAttribute key="parameters"/>

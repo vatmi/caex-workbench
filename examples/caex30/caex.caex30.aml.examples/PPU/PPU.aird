@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="null platform:/resource/caex.caex30/model/CAEX30.ecore http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_KgbI0HtPEeex09toyOT5SQ" selectedViews="_StbOkBfTEeiBBYWvXdvAhw" version="12.0.0.201704271200">
+    <semanticResources>PPU.caex</semanticResources>
+    <semanticResources>AMLBaseInterfaceClassLib.caex</semanticResources>
+    <semanticResources>QNRoleClassLib.caex</semanticResources>
+    <semanticResources>AMLRoleClassLib.caex</semanticResources>
+    <semanticResources>platform:/resource/caex.anytype/model/GenericAnyType.ecore</semanticResources>
+    <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+    <semanticResources>PPUSystemUnitClassLib.caex</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_L2BCwHtPEeex09toyOT5SQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_43oRYIP6EeeeC-BAnR93Xw" name="PPU" repPath="#_43cEIIP6EeeeC-BAnR93Xw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']"/>
+        <target xmi:type="InstanceHierarchy" href="PPU.caex#//@instanceHierarchy.0"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_StbOkBfTEeiBBYWvXdvAhw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_S0dqsBfTEeiBBYWvXdvAhw" name="CAEX 3.0 Instance Hierarchy Diagram" repPath="#_S0b1gBfTEeiBBYWvXdvAhw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']"/>
+        <target xmi:type="InstanceHierarchy_._type" href="PPU.caex#//@instanceHierarchy.0"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_43cEIIP6EeeeC-BAnR93Xw" name="PPU">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_43cEIYP6EeeeC-BAnR93Xw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_43cEIoP6EeeeC-BAnR93Xw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_437zYIP6EeeeC-BAnR93Xw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_437zYYP6EeeeC-BAnR93Xw" type="Sirius" element="_43cEIIP6EeeeC-BAnR93Xw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_44EWQIP6EeeeC-BAnR93Xw" type="2002" element="_43cEJIP6EeeeC-BAnR93Xw">
+          <children xmi:type="notation:Node" xmi:id="_45OM0IP6EeeeC-BAnR93Xw" type="3012" element="_43cEJYP6EeeeC-BAnR93Xw">
+            <children xmi:type="notation:Node" xmi:id="_45RQIIP6EeeeC-BAnR93Xw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_45RQIYP6EeeeC-BAnR93Xw" x="21" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_45kyIIP6EeeeC-BAnR93Xw" type="3003" element="_43cEJoP6EeeeC-BAnR93Xw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_45kyIYP6EeeeC-BAnR93Xw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_45kyIoP6EeeeC-BAnR93Xw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_45OM0YP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_45OM0oP6EeeeC-BAnR93Xw" x="-12" y="5" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_446DwIP6EeeeC-BAnR93Xw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_448gAIP6EeeeC-BAnR93Xw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_45ocgIP6EeeeC-BAnR93Xw" type="3009" element="_43cEKIP6EeeeC-BAnR93Xw">
+              <children xmi:type="notation:Node" xmi:id="_45pqoIP6EeeeC-BAnR93Xw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_45rf0IP6EeeeC-BAnR93Xw" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_45vxQIP6EeeeC-BAnR93Xw" type="3010" element="_43cEKoP6EeeeC-BAnR93Xw">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_45vxQYP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_45vxQoP6EeeeC-BAnR93Xw"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_45rf0YP6EeeeC-BAnR93Xw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_45rf0oP6EeeeC-BAnR93Xw"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_45sG4IP6EeeeC-BAnR93Xw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_45ocgYP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_45ocgoP6EeeeC-BAnR93Xw" width="149" height="40"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_448gAYP6EeeeC-BAnR93Xw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_448gAoP6EeeeC-BAnR93Xw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_44EWQYP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_44EWQoP6EeeeC-BAnR93Xw" x="380"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_44-VMIP6EeeeC-BAnR93Xw" type="2002" element="_43cELIP6EeeeC-BAnR93Xw">
+          <children xmi:type="notation:Node" xmi:id="_45xmcIP6EeeeC-BAnR93Xw" type="3012" element="_43crMIP6EeeeC-BAnR93Xw">
+            <children xmi:type="notation:Node" xmi:id="_45y0kIP6EeeeC-BAnR93Xw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_45y0kYP6EeeeC-BAnR93Xw" x="-21" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_453tEIP6EeeeC-BAnR93Xw" type="3003" element="_43crMYP6EeeeC-BAnR93Xw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_453tEYP6EeeeC-BAnR93Xw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_453tEoP6EeeeC-BAnR93Xw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_45xmcYP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_45yNgIP6EeeeC-BAnR93Xw" x="143" y="5" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_450pwIP6EeeeC-BAnR93Xw" type="3012" element="_43crMoP6EeeeC-BAnR93Xw">
+            <children xmi:type="notation:Node" xmi:id="_451Q0IP6EeeeC-BAnR93Xw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_451Q0YP6EeeeC-BAnR93Xw" x="21" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_4547MIP6EeeeC-BAnR93Xw" type="3003" element="_43crM4P6EeeeC-BAnR93Xw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_4547MYP6EeeeC-BAnR93Xw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4547MoP6EeeeC-BAnR93Xw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_450pwYP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_450pwoP6EeeeC-BAnR93Xw" x="-12" y="5" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_45AKYIP6EeeeC-BAnR93Xw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_45AxcIP6EeeeC-BAnR93Xw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_46O5cIP6EeeeC-BAnR93Xw" type="3009" element="_43crNYP6EeeeC-BAnR93Xw">
+              <children xmi:type="notation:Node" xmi:id="_46QuoIP6EeeeC-BAnR93Xw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_46R8wIP6EeeeC-BAnR93Xw" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_46Sj0IP6EeeeC-BAnR93Xw" type="3010" element="_43crN4P6EeeeC-BAnR93Xw">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_46Sj0YP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_46Sj0oP6EeeeC-BAnR93Xw"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_46R8wYP6EeeeC-BAnR93Xw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_46R8woP6EeeeC-BAnR93Xw"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_46R8w4P6EeeeC-BAnR93Xw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_46O5cYP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_46O5coP6EeeeC-BAnR93Xw" width="149" height="40"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_45AxcYP6EeeeC-BAnR93Xw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_45AxcoP6EeeeC-BAnR93Xw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_44-VMYP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_44-VMoP6EeeeC-BAnR93Xw" x="190" width="153" height="74"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_45BYgIP6EeeeC-BAnR93Xw" type="2002" element="_43crOYP6EeeeC-BAnR93Xw">
+          <children xmi:type="notation:Node" xmi:id="_46Tx8IP6EeeeC-BAnR93Xw" type="3012" element="_43crOoP6EeeeC-BAnR93Xw">
+            <children xmi:type="notation:Node" xmi:id="_46VAEIP6EeeeC-BAnR93Xw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_46VAEYP6EeeeC-BAnR93Xw" x="-21" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_46YDYIP6EeeeC-BAnR93Xw" type="3003" element="_43crO4P6EeeeC-BAnR93Xw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_46YDYYP6EeeeC-BAnR93Xw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_46YDYoP6EeeeC-BAnR93Xw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_46Tx8YP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_46Tx8oP6EeeeC-BAnR93Xw" x="143" y="5" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_45J7YIP6EeeeC-BAnR93Xw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_45J7YYP6EeeeC-BAnR93Xw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_46exEIP6EeeeC-BAnR93Xw" type="3009" element="_43crPYP6EeeeC-BAnR93Xw">
+              <children xmi:type="notation:Node" xmi:id="_46gmQIP6EeeeC-BAnR93Xw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_46gmQYP6EeeeC-BAnR93Xw" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_46h0YIP6EeeeC-BAnR93Xw" type="3010" element="_43crP4P6EeeeC-BAnR93Xw">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_46h0YYP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_46h0YoP6EeeeC-BAnR93Xw"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_46gmQoP6EeeeC-BAnR93Xw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_46gmQ4P6EeeeC-BAnR93Xw"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_46hNUIP6EeeeC-BAnR93Xw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_46exEYP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_46exEoP6EeeeC-BAnR93Xw" width="149" height="40"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_45J7YoP6EeeeC-BAnR93Xw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_45J7Y4P6EeeeC-BAnR93Xw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_45BYgYP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_45BYgoP6EeeeC-BAnR93Xw"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_437zYoP6EeeeC-BAnR93Xw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_46qXQIP6EeeeC-BAnR93Xw" type="4001" element="_43crQYP6EeeeC-BAnR93Xw" source="_45OM0IP6EeeeC-BAnR93Xw" target="_45xmcIP6EeeeC-BAnR93Xw">
+          <children xmi:type="notation:Node" xmi:id="_46uBoIP6EeeeC-BAnR93Xw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_46uBoYP6EeeeC-BAnR93Xw" x="3" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_46wd4IP6EeeeC-BAnR93Xw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_46wd4YP6EeeeC-BAnR93Xw" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_46yTEIP6EeeeC-BAnR93Xw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_46yTEYP6EeeeC-BAnR93Xw" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_46qXQYP6EeeeC-BAnR93Xw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_46qXQoP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_46qXQ4P6EeeeC-BAnR93Xw" points="[-10, -2, 25, -2]$[-25, -4, 10, -4]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_467dAIP6EeeeC-BAnR93Xw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_468EEIP6EeeeC-BAnR93Xw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_469SMIP6EeeeC-BAnR93Xw" type="4001" element="_43crRIP6EeeeC-BAnR93Xw" source="_450pwIP6EeeeC-BAnR93Xw" target="_46Tx8IP6EeeeC-BAnR93Xw">
+          <children xmi:type="notation:Node" xmi:id="_46-gUIP6EeeeC-BAnR93Xw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_46-gUYP6EeeeC-BAnR93Xw" x="3" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_46-gUoP6EeeeC-BAnR93Xw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_46-gU4P6EeeeC-BAnR93Xw" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_46_HYIP6EeeeC-BAnR93Xw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_46_HYYP6EeeeC-BAnR93Xw" x="-1" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_469SMYP6EeeeC-BAnR93Xw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_469SMoP6EeeeC-BAnR93Xw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_469SM4P6EeeeC-BAnR93Xw" points="[-10, -2, 25, -2]$[-25, -4, 10, -4]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_46_ucIP6EeeeC-BAnR93Xw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_46_ucYP6EeeeC-BAnR93Xw" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_43cEJIP6EeeeC-BAnR93Xw" name="Stack" childrenPresentation="VerticalStack">
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_43cEJYP6EeeeC-BAnR93Xw" name="Output" outgoingEdges="_43crQYP6EeeeC-BAnR93Xw" width="2" height="2">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_43cEJoP6EeeeC-BAnR93Xw" labelSize="7" showIcon="false" labelAlignment="LEFT" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']"/>
+        <target xmi:type="ExternalInterface" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0/@externalInterface.0"/>
+        <semanticElements xmi:type="ExternalInterface" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0/@externalInterface.0"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_43cEJ4P6EeeeC-BAnR93Xw" labelSize="10" iconPath="/caex.caex30.design/icons/InternalElement.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_43cEKIP6EeeeC-BAnR93Xw" name="Role Requirements">
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_43cEKYP6EeeeC-BAnR93Xw" showIcon="false" borderColor="255,255,255" foregroundColor="255,255,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_43cEKoP6EeeeC-BAnR93Xw" name="   Resource">
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_43cEK4P6EeeeC-BAnR93Xw" showIcon="false" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@subNodeMappings[name='RoleRequirements']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@subNodeMappings[name='RoleRequirements']"/>
+          <target xmi:type="RoleRequirements" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0/@roleRequirements.0"/>
+          <semanticElements xmi:type="RoleRequirements" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0/@roleRequirements.0"/>
+        </ownedElements>
+        <target xmi:type="InternalElement" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0"/>
+        <semanticElements xmi:type="InternalElement" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0"/>
+      </ownedDiagramElements>
+      <target xmi:type="InternalElement" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0"/>
+      <semanticElements xmi:type="InternalElement" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_43cELIP6EeeeC-BAnR93Xw" name="Crane" childrenPresentation="VerticalStack">
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_43crMIP6EeeeC-BAnR93Xw" name="Input" incomingEdges="_43crQYP6EeeeC-BAnR93Xw" width="2" height="2">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_43crMYP6EeeeC-BAnR93Xw" labelSize="7" showIcon="false" labelAlignment="LEFT" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']"/>
+        <target xmi:type="ExternalInterface" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@externalInterface.0"/>
+        <semanticElements xmi:type="ExternalInterface" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@externalInterface.0"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_43crMoP6EeeeC-BAnR93Xw" name="Output" outgoingEdges="_43crRIP6EeeeC-BAnR93Xw" width="2" height="2">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_43crM4P6EeeeC-BAnR93Xw" labelSize="7" showIcon="false" labelAlignment="LEFT" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']"/>
+        <target xmi:type="ExternalInterface" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@externalInterface.1"/>
+        <semanticElements xmi:type="ExternalInterface" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@externalInterface.1"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_43crNIP6EeeeC-BAnR93Xw" labelSize="10" iconPath="/caex.caex30.design/icons/InternalElement.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_43crNYP6EeeeC-BAnR93Xw" name="Role Requirements">
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_43crNoP6EeeeC-BAnR93Xw" showIcon="false" borderColor="255,255,255" foregroundColor="255,255,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_43crN4P6EeeeC-BAnR93Xw" name="   Resource">
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_43crOIP6EeeeC-BAnR93Xw" showIcon="false" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@subNodeMappings[name='RoleRequirements']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@subNodeMappings[name='RoleRequirements']"/>
+          <target xmi:type="RoleRequirements" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@roleRequirements.0"/>
+          <semanticElements xmi:type="RoleRequirements" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@roleRequirements.0"/>
+        </ownedElements>
+        <target xmi:type="InternalElement" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1"/>
+        <semanticElements xmi:type="InternalElement" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1"/>
+      </ownedDiagramElements>
+      <target xmi:type="InternalElement" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1"/>
+      <semanticElements xmi:type="InternalElement" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_43crOYP6EeeeC-BAnR93Xw" name="Ramp" childrenPresentation="VerticalStack">
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_43crOoP6EeeeC-BAnR93Xw" name="Input" incomingEdges="_43crRIP6EeeeC-BAnR93Xw" width="2" height="2">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_43crO4P6EeeeC-BAnR93Xw" labelSize="7" showIcon="false" labelAlignment="LEFT" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']"/>
+        <target xmi:type="ExternalInterface" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2/@externalInterface.0"/>
+        <semanticElements xmi:type="ExternalInterface" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2/@externalInterface.0"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_43crPIP6EeeeC-BAnR93Xw" labelSize="10" iconPath="/caex.caex30.design/icons/InternalElement.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_43crPYP6EeeeC-BAnR93Xw" name="Role Requirements">
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_43crPoP6EeeeC-BAnR93Xw" showIcon="false" borderColor="255,255,255" foregroundColor="255,255,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_43crP4P6EeeeC-BAnR93Xw" name="   Resource">
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_43crQIP6EeeeC-BAnR93Xw" showIcon="false" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@subNodeMappings[name='RoleRequirements']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@subNodeMappings[name='RoleRequirements']"/>
+          <target xmi:type="RoleRequirements" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2/@roleRequirements.0"/>
+          <semanticElements xmi:type="RoleRequirements" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2/@roleRequirements.0"/>
+        </ownedElements>
+        <target xmi:type="InternalElement" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2"/>
+        <semanticElements xmi:type="InternalElement" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2"/>
+      </ownedDiagramElements>
+      <target xmi:type="InternalElement" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2"/>
+      <semanticElements xmi:type="InternalElement" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_43crQYP6EeeeC-BAnR93Xw" sourceNode="_43cEJYP6EeeeC-BAnR93Xw" targetNode="_43crMIP6EeeeC-BAnR93Xw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_43crQoP6EeeeC-BAnR93Xw" targetArrow="NoDecoration" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@edgeMappings[name='InternalLinkEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_43crQ4P6EeeeC-BAnR93Xw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@edgeMappings[name='InternalLinkEdge']"/>
+      <target xmi:type="InternalLink" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0/@internalLink.0"/>
+      <semanticElements xmi:type="InternalLink" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0/@internalLink.0"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_43crRIP6EeeeC-BAnR93Xw" sourceNode="_43crMoP6EeeeC-BAnR93Xw" targetNode="_43crOoP6EeeeC-BAnR93Xw">
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_43crRYP6EeeeC-BAnR93Xw" targetArrow="NoDecoration" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@edgeMappings[name='InternalLinkEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_43crRoP6EeeeC-BAnR93Xw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@edgeMappings[name='InternalLinkEdge']"/>
+      <target xmi:type="InternalLink" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@internalLink.0"/>
+      <semanticElements xmi:type="InternalLink" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@internalLink.0"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_43crR4P6EeeeC-BAnR93Xw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer"/>
+    <target xmi:type="InstanceHierarchy" href="PPU.caex#//@instanceHierarchy.0"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_S0b1gBfTEeiBBYWvXdvAhw" name="CAEX 3.0 Instance Hierarchy Diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_S0b1gRfTEeiBBYWvXdvAhw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_S0b1ghfTEeiBBYWvXdvAhw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_S0-BABfTEeiBBYWvXdvAhw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_S0-BARfTEeiBBYWvXdvAhw" type="Sirius" element="_S0b1gBfTEeiBBYWvXdvAhw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_S1N4oBfTEeiBBYWvXdvAhw" type="2002" element="_S0b1hBfTEeiBBYWvXdvAhw">
+          <children xmi:type="notation:Node" xmi:id="_S1iowBfTEeiBBYWvXdvAhw" type="3012" element="_S0b1hRfTEeiBBYWvXdvAhw">
+            <children xmi:type="notation:Node" xmi:id="_S1j24BfTEeiBBYWvXdvAhw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S1j24RfTEeiBBYWvXdvAhw" x="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S1x5UBfTEeiBBYWvXdvAhw" type="3003" element="_S0b1hhfTEeiBBYWvXdvAhw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S1ygYBfTEeiBBYWvXdvAhw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S1ygYRfTEeiBBYWvXdvAhw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S1iowRfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S1iowhfTEeiBBYWvXdvAhw" x="8" y="-12" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S1XpoBfTEeiBBYWvXdvAhw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_S1YQsBfTEeiBBYWvXdvAhw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_S1zHcBfTEeiBBYWvXdvAhw" type="3009" element="_S0b1iBfTEeiBBYWvXdvAhw">
+              <children xmi:type="notation:Node" xmi:id="_S1zugBfTEeiBBYWvXdvAhw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_S10VkBfTEeiBBYWvXdvAhw" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_S108oBfTEeiBBYWvXdvAhw" type="3010" element="_S0b1ihfTEeiBBYWvXdvAhw">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_S108oRfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_S108ohfTEeiBBYWvXdvAhw"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_S10VkRfTEeiBBYWvXdvAhw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_S10VkhfTEeiBBYWvXdvAhw"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_S10VkxfTEeiBBYWvXdvAhw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S1zHcRfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S1zHchfTEeiBBYWvXdvAhw" width="86" height="40"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_S1YQsRfTEeiBBYWvXdvAhw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_S1YQshfTEeiBBYWvXdvAhw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S1N4oRfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S1N4ohfTEeiBBYWvXdvAhw" y="264"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S1eXUBfTEeiBBYWvXdvAhw" type="2002" element="_S0b1jBfTEeiBBYWvXdvAhw">
+          <children xmi:type="notation:Node" xmi:id="_S11jsBfTEeiBBYWvXdvAhw" type="3012" element="_S0b1jRfTEeiBBYWvXdvAhw">
+            <children xmi:type="notation:Node" xmi:id="_S12KwBfTEeiBBYWvXdvAhw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S12KwRfTEeiBBYWvXdvAhw" x="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S13Y4BfTEeiBBYWvXdvAhw" type="3003" element="_S0b1jhfTEeiBBYWvXdvAhw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S13Y4RfTEeiBBYWvXdvAhw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S13Y4hfTEeiBBYWvXdvAhw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S11jsRfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S11jshfTEeiBBYWvXdvAhw" x="8" y="64" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S12KwhfTEeiBBYWvXdvAhw" type="3012" element="_S0b1jxfTEeiBBYWvXdvAhw">
+            <children xmi:type="notation:Node" xmi:id="_S12x0BfTEeiBBYWvXdvAhw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S12x0RfTEeiBBYWvXdvAhw" x="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S13Y4xfTEeiBBYWvXdvAhw" type="3003" element="_S0b1kBfTEeiBBYWvXdvAhw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S13Y5BfTEeiBBYWvXdvAhw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S13Y5RfTEeiBBYWvXdvAhw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S12KwxfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S12KxBfTEeiBBYWvXdvAhw" x="8" y="-12" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S1e-YhfTEeiBBYWvXdvAhw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_S1e-YxfTEeiBBYWvXdvAhw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_S14nABfTEeiBBYWvXdvAhw" type="3009" element="_S0b1khfTEeiBBYWvXdvAhw">
+              <children xmi:type="notation:Node" xmi:id="_S14nAxfTEeiBBYWvXdvAhw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_S14nBBfTEeiBBYWvXdvAhw" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_S15OERfTEeiBBYWvXdvAhw" type="3010" element="_S0b1lBfTEeiBBYWvXdvAhw">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_S15OEhfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_S15OExfTEeiBBYWvXdvAhw"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_S14nBRfTEeiBBYWvXdvAhw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_S14nBhfTEeiBBYWvXdvAhw"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_S15OEBfTEeiBBYWvXdvAhw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S14nARfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S14nAhfTEeiBBYWvXdvAhw" width="86" height="40"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_S1e-ZBfTEeiBBYWvXdvAhw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_S1e-ZRfTEeiBBYWvXdvAhw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S1e-YBfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S1e-YRfTEeiBBYWvXdvAhw" y="132"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_S1flcBfTEeiBBYWvXdvAhw" type="2002" element="_S0b1lhfTEeiBBYWvXdvAhw">
+          <children xmi:type="notation:Node" xmi:id="_S15OFBfTEeiBBYWvXdvAhw" type="3012" element="_S0b1lxfTEeiBBYWvXdvAhw">
+            <children xmi:type="notation:Node" xmi:id="_S151IBfTEeiBBYWvXdvAhw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_S151IRfTEeiBBYWvXdvAhw" x="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_S151IhfTEeiBBYWvXdvAhw" type="3003" element="_S0b1mBfTEeiBBYWvXdvAhw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S151IxfTEeiBBYWvXdvAhw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S151JBfTEeiBBYWvXdvAhw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_S15OFRfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S15OFhfTEeiBBYWvXdvAhw" x="8" y="64" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S1flcxfTEeiBBYWvXdvAhw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_S1fldBfTEeiBBYWvXdvAhw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_S16cMBfTEeiBBYWvXdvAhw" type="3009" element="_S0b1mhfTEeiBBYWvXdvAhw">
+              <children xmi:type="notation:Node" xmi:id="_S16cMxfTEeiBBYWvXdvAhw" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_S16cNBfTEeiBBYWvXdvAhw" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_S16cOBfTEeiBBYWvXdvAhw" type="3010" element="_S0b1nBfTEeiBBYWvXdvAhw">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_S16cORfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_S16cOhfTEeiBBYWvXdvAhw"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_S16cNRfTEeiBBYWvXdvAhw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_S16cNhfTEeiBBYWvXdvAhw"/>
+                <styles xmi:type="notation:DrawerStyle" xmi:id="_S16cNxfTEeiBBYWvXdvAhw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_S16cMRfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S16cMhfTEeiBBYWvXdvAhw" width="86" height="40"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_S1fldRfTEeiBBYWvXdvAhw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_S1fldhfTEeiBBYWvXdvAhw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_S1flcRfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S1flchfTEeiBBYWvXdvAhw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_fSpCoBfTEeiBBYWvXdvAhw" type="2002" element="_fSX84BfTEeiBBYWvXdvAhw">
+          <children xmi:type="notation:Node" xmi:id="_fSppsBfTEeiBBYWvXdvAhw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_fSppsRfTEeiBBYWvXdvAhw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_fSppshfTEeiBBYWvXdvAhw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_fSppsxfTEeiBBYWvXdvAhw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_fSpCoRfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fSpCohfTEeiBBYWvXdvAhw" x="-72" y="-72"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_S0-BAhfTEeiBBYWvXdvAhw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_S2KT0BfTEeiBBYWvXdvAhw" type="4001" element="_S0b1nhfTEeiBBYWvXdvAhw" source="_S1iowBfTEeiBBYWvXdvAhw" target="_S11jsBfTEeiBBYWvXdvAhw">
+          <children xmi:type="notation:Node" xmi:id="_S2Lh8BfTEeiBBYWvXdvAhw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S2Lh8RfTEeiBBYWvXdvAhw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S2MJABfTEeiBBYWvXdvAhw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S2MJARfTEeiBBYWvXdvAhw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S2MwEBfTEeiBBYWvXdvAhw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S2MwERfTEeiBBYWvXdvAhw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_S2KT0RfTEeiBBYWvXdvAhw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_S2KT0hfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S2KT0xfTEeiBBYWvXdvAhw" points="[0, 0, 0, 57]$[0, -57, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S2VS8BfTEeiBBYWvXdvAhw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S2VS8RfTEeiBBYWvXdvAhw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_S2V6ABfTEeiBBYWvXdvAhw" type="4001" element="_S0b1oRfTEeiBBYWvXdvAhw" source="_S12KwhfTEeiBBYWvXdvAhw" target="_S15OFBfTEeiBBYWvXdvAhw">
+          <children xmi:type="notation:Node" xmi:id="_S2V6BBfTEeiBBYWvXdvAhw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S2V6BRfTEeiBBYWvXdvAhw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S2V6BhfTEeiBBYWvXdvAhw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S2V6BxfTEeiBBYWvXdvAhw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_S2V6CBfTEeiBBYWvXdvAhw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S2V6CRfTEeiBBYWvXdvAhw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_S2V6ARfTEeiBBYWvXdvAhw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_S2V6AhfTEeiBBYWvXdvAhw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S2V6AxfTEeiBBYWvXdvAhw" points="[0, 0, 0, 57]$[0, -57, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S2WhEBfTEeiBBYWvXdvAhw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S2WhERfTEeiBBYWvXdvAhw" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_S0b1hBfTEeiBBYWvXdvAhw" name="Stack" childrenPresentation="VerticalStack">
+      <target xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0"/>
+      <semanticElements xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_S0b1hRfTEeiBBYWvXdvAhw" name="Output" outgoingEdges="_S0b1nhfTEeiBBYWvXdvAhw" width="2" height="2">
+        <target xmi:type="ExternalInterface_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0/@externalInterface.0"/>
+        <semanticElements xmi:type="ExternalInterface_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0/@externalInterface.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_S0b1hhfTEeiBBYWvXdvAhw" labelSize="7" showIcon="false" labelAlignment="LEFT" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_S0b1hxfTEeiBBYWvXdvAhw" labelSize="10" iconPath="/caex.caex30.design/icons/InternalElement.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_S0b1iBfTEeiBBYWvXdvAhw" name="Role Requirements">
+        <target xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0"/>
+        <semanticElements xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_S0b1iRfTEeiBBYWvXdvAhw" showIcon="false" borderColor="255,255,255" foregroundColor="255,255,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_S0b1ihfTEeiBBYWvXdvAhw" name="   Resource">
+          <target xmi:type="RoleRequirements_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0/@roleRequirements.0"/>
+          <semanticElements xmi:type="RoleRequirements_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0/@roleRequirements.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_S0b1ixfTEeiBBYWvXdvAhw" showIcon="false" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@subNodeMappings[name='RoleRequirements']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@subNodeMappings[name='RoleRequirements']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_S0b1jBfTEeiBBYWvXdvAhw" name="Crane" childrenPresentation="VerticalStack">
+      <target xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1"/>
+      <semanticElements xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_S0b1jRfTEeiBBYWvXdvAhw" name="Input" incomingEdges="_S0b1nhfTEeiBBYWvXdvAhw" width="2" height="2">
+        <target xmi:type="ExternalInterface_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@externalInterface.0"/>
+        <semanticElements xmi:type="ExternalInterface_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@externalInterface.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_S0b1jhfTEeiBBYWvXdvAhw" labelSize="7" showIcon="false" labelAlignment="LEFT" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_S0b1jxfTEeiBBYWvXdvAhw" name="Output" outgoingEdges="_S0b1oRfTEeiBBYWvXdvAhw" width="2" height="2">
+        <target xmi:type="ExternalInterface_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@externalInterface.1"/>
+        <semanticElements xmi:type="ExternalInterface_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@externalInterface.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_S0b1kBfTEeiBBYWvXdvAhw" labelSize="7" showIcon="false" labelAlignment="LEFT" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_S0b1kRfTEeiBBYWvXdvAhw" labelSize="10" iconPath="/caex.caex30.design/icons/InternalElement.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_S0b1khfTEeiBBYWvXdvAhw" name="Role Requirements">
+        <target xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1"/>
+        <semanticElements xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_S0b1kxfTEeiBBYWvXdvAhw" showIcon="false" borderColor="255,255,255" foregroundColor="255,255,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_S0b1lBfTEeiBBYWvXdvAhw" name="   Resource">
+          <target xmi:type="RoleRequirements_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@roleRequirements.0"/>
+          <semanticElements xmi:type="RoleRequirements_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@roleRequirements.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_S0b1lRfTEeiBBYWvXdvAhw" showIcon="false" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@subNodeMappings[name='RoleRequirements']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@subNodeMappings[name='RoleRequirements']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_S0b1lhfTEeiBBYWvXdvAhw" name="Ramp" childrenPresentation="VerticalStack">
+      <target xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2"/>
+      <semanticElements xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_S0b1lxfTEeiBBYWvXdvAhw" name="Input" incomingEdges="_S0b1oRfTEeiBBYWvXdvAhw" width="2" height="2">
+        <target xmi:type="ExternalInterface_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2/@externalInterface.0"/>
+        <semanticElements xmi:type="ExternalInterface_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2/@externalInterface.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_S0b1mBfTEeiBBYWvXdvAhw" labelSize="7" showIcon="false" labelAlignment="LEFT" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@borderedNodeMappings[name='ExternalInterface']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_S0b1mRfTEeiBBYWvXdvAhw" labelSize="10" iconPath="/caex.caex30.design/icons/InternalElement.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_S0b1mhfTEeiBBYWvXdvAhw" name="Role Requirements">
+        <target xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2"/>
+        <semanticElements xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_S0b1mxfTEeiBBYWvXdvAhw" showIcon="false" borderColor="255,255,255" foregroundColor="255,255,255">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_S0b1nBfTEeiBBYWvXdvAhw" name="   Resource">
+          <target xmi:type="RoleRequirements_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2/@roleRequirements.0"/>
+          <semanticElements xmi:type="RoleRequirements_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.2/@roleRequirements.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_S0b1nRfTEeiBBYWvXdvAhw" showIcon="false" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@subNodeMappings[name='RoleRequirements']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@subContainerMappings[name='RoleRequirementsContainer']/@subNodeMappings[name='RoleRequirements']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_S0b1nhfTEeiBBYWvXdvAhw" sourceNode="_S0b1hRfTEeiBBYWvXdvAhw" targetNode="_S0b1jRfTEeiBBYWvXdvAhw">
+      <target xmi:type="InternalLink_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0/@internalLink.0"/>
+      <semanticElements xmi:type="InternalLink_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.0/@internalLink.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_S0b1nxfTEeiBBYWvXdvAhw" targetArrow="NoDecoration" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@edgeMappings[name='InternalLinkEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_S0b1oBfTEeiBBYWvXdvAhw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@edgeMappings[name='InternalLinkEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_S0b1oRfTEeiBBYWvXdvAhw" sourceNode="_S0b1jxfTEeiBBYWvXdvAhw" targetNode="_S0b1lxfTEeiBBYWvXdvAhw">
+      <target xmi:type="InternalLink_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@internalLink.0"/>
+      <semanticElements xmi:type="InternalLink_._type" href="PPU.caex#//@instanceHierarchy.0/@internalElement.1/@internalLink.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_S0b1ohfTEeiBBYWvXdvAhw" targetArrow="NoDecoration" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@edgeMappings[name='InternalLinkEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_S0b1oxfTEeiBBYWvXdvAhw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@edgeMappings[name='InternalLinkEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_fSX84BfTEeiBBYWvXdvAhw" childrenPresentation="VerticalStack">
+      <target xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.3"/>
+      <semanticElements xmi:type="InternalElementType" href="PPU.caex#//@instanceHierarchy.0/@internalElement.3"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_fSYj8BfTEeiBBYWvXdvAhw" labelSize="10" iconPath="/caex.caex30.design/icons/InternalElement.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer/@containerMappings[name='InternalElement']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_S0b1pBfTEeiBBYWvXdvAhw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/caex.caex30.design/description/CAEX30.odesign#//@ownedViewpoints[name='CAEX30Viewpoint']/@ownedRepresentations[name='CAEX30InstanceHierarchyDiagram']/@defaultLayer"/>
+    <target xmi:type="InstanceHierarchy_._type" href="PPU.caex#//@instanceHierarchy.0"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

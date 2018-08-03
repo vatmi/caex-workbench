@@ -1,0 +1,11 @@
+for (EI in CAEX30!InterfaceClass.allInstances())
+{
+//println("Hello");
+
+	if(EI.name=='FbtLogicInterface') 
+		{
+			EI.attribute.value.println();
+			var t: new Native ("org.eclipse.fordiac.ide.automationml.Importer");
+			
+		}
+}
