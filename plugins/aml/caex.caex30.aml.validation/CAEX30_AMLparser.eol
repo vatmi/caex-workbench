@@ -1,11 +1,17 @@
-for (EI in CAEX30!InterfaceClass.allInstances())
+//operation extractComponentEntities()
+//{
+for (SUC in CAEX30!SystemUnitClass)
 {
-//println("Hello");
 
-	if(EI.name=='FbtLogicInterface') 
-		{
-			EI.attribute.value.println();
-			var t: new Native ("org.eclipse.fordiac.ide.automationml.Importer");
-			
-		}
-}
+if(SUC.supportedRoleClass.roleClass.name->exists(csuc|csuc = 'Component'))
+{
+for (EI in SUC)
+{
+
+if (EI.name =="SubAppInterface")
+{
+	EI.attribute.value.println();
+	return EI.attribute.value;
+	
+}}}}
+//}

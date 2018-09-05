@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<caex:CAEXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:caex="platform:/resource/caex.caex30/model/CAEX30.ecore" fileName="Trial">
+<caex:CAEXFile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:caex="platform:/resource/caex.caex30/model/CAEX30.ecore" fileName="Trial">
   <superiorStandardVersion>AutomationML 3.0</superiorStandardVersion>
   <sourceDocumentInformation lastWritingDateTime="2018-07-30" originID="caex.caex30.caex.presentation.CAEXEditorID" originName="CEX 3.0 EMF editor" originProjectID="" originRelease="" originVendor="fortiss GmbH" originVendorURL="" originVersion="1.0.0"/>
   <instanceHierarchy>
@@ -11,7 +11,7 @@
     </internalElement>
     <internalElement name="Skill">
       <externalInterface name="FbtLogicInterface" baseClass="//@interfaceClassLib.0/@interfaceClass.0/@externalInterface.0">
-        <attribute name="FbtPath" value="E:\Thesis_Repo\lab-basisautomation\fordiac-ide\D4TMaintenance\DT4Maintenance\Simulation\Gripper.fbt" attributeDataType="refURI" refAttributeType="" referenceAttribute="//@interfaceClassLib.0/@interfaceClass.0/@externalInterface.0/@attribute.0"/>
+        <attribute name="FbtPath" value="E:/caex-workbench/examples/ControlCode/CylindeDAr.fbt" attributeDataType="refURI" refAttributeType="" referenceAttribute="//@interfaceClassLib.0/@interfaceClass.0/@externalInterface.0/@attribute.0"/>
       </externalInterface>
       <roleRequirements roleClass="//@roleClassLib.0/@roleClass.1"/>
     </internalElement>
@@ -21,6 +21,10 @@
   </instanceHierarchy>
   <interfaceClassLib name="">
     <interfaceClass name="FbtInterfaces">
+      <interfaceClass xsi:type="caex:ExternalInterface" name="SubAppInterface">
+        <attribute name="SubAppPath"/>
+        <attribute name="FbtDirectory"/>
+      </interfaceClass>
       <externalInterface name="FbtLogicInterface" refBaseClassPath="" baseClass="//@interfaceClassLib.0/@interfaceClass.0">
         <attribute name="FbtPath" attributeDataType="refURI" refAttributeType="" referenceAttribute="//@interfaceClassLib.0/@interfaceClass.0/@externalInterface.0/@attribute.0"/>
       </externalInterface>
@@ -41,8 +45,12 @@
     </roleClass>
   </roleClassLib>
   <systemUnitClassLib name="Component">
-    <systemUnitClass name="Component">
+    <systemUnitClass name="DoubleAxisCylinder">
       <externalInterface name="Behavior"/>
+      <externalInterface xsi:type="caex:ExternalInterface" name="SubAppInterface" baseClass="//@interfaceClassLib.0/@interfaceClass.0/@interfaceClass.0">
+        <attribute name="SubAppPath" refAttributeType="" referenceAttribute="//@interfaceClassLib.0/@interfaceClass.0/@interfaceClass.0/@attribute.0"/>
+        <attribute name="FbtDirectory" referenceAttribute="//@interfaceClassLib.0/@interfaceClass.0/@interfaceClass.0/@attribute.1"/>
+      </externalInterface>
       <supportedRoleClass refRoleClassPath="AMLRoleClassLibrary.Component" roleClass="//@roleClassLib.0/@roleClass.3"/>
     </systemUnitClass>
   </systemUnitClassLib>
