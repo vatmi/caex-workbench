@@ -64,11 +64,6 @@ public class CAEXBasicObjectItemProvider
 			super.getPropertyDescriptors(object);
 
 			addChangeModePropertyDescriptor(object);
-			addDescriptionPropertyDescriptor(object);
-			addVersionPropertyDescriptor(object);
-			addRevisionPropertyDescriptor(object);
-			addCopyrightPropertyDescriptor(object);
-			addAdditionalInformationPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -84,123 +79,13 @@ public class CAEXBasicObjectItemProvider
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_CAEXBasicObject_changeMode_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_CAEXBasicObject_changeMode_feature", "_UI_CAEXBasicObject_type"),
+				 getString("_UI_CAEXBasicObject_ChangeMode_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_CAEXBasicObject_ChangeMode_feature", "_UI_CAEXBasicObject_type"),
 				 CAEXPackage.Literals.CAEX_BASIC_OBJECT__CHANGE_MODE,
 				 true,
 				 false,
 				 false,
 				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Description feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addDescriptionPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_CAEXBasicObject_description_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_CAEXBasicObject_description_feature", "_UI_CAEXBasicObject_type"),
-				 CAEXPackage.Literals.CAEX_BASIC_OBJECT__DESCRIPTION,
-				 true,
-				 false,
-				 true,
-				 null,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Version feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addVersionPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_CAEXBasicObject_version_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_CAEXBasicObject_version_feature", "_UI_CAEXBasicObject_type"),
-				 CAEXPackage.Literals.CAEX_BASIC_OBJECT__VERSION,
-				 true,
-				 false,
-				 true,
-				 null,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Revision feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addRevisionPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_CAEXBasicObject_revision_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_CAEXBasicObject_revision_feature", "_UI_CAEXBasicObject_type"),
-				 CAEXPackage.Literals.CAEX_BASIC_OBJECT__REVISION,
-				 true,
-				 false,
-				 true,
-				 null,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Copyright feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addCopyrightPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_CAEXBasicObject_copyright_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_CAEXBasicObject_copyright_feature", "_UI_CAEXBasicObject_type"),
-				 CAEXPackage.Literals.CAEX_BASIC_OBJECT__COPYRIGHT,
-				 true,
-				 false,
-				 true,
-				 null,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Additional Information feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addAdditionalInformationPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_CAEXBasicObject_additionalInformation_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_CAEXBasicObject_additionalInformation_feature", "_UI_CAEXBasicObject_type"),
-				 CAEXPackage.Literals.CAEX_BASIC_OBJECT__ADDITIONAL_INFORMATION,
-				 true,
-				 false,
-				 true,
-				 null,
 				 null,
 				 null));
 	}

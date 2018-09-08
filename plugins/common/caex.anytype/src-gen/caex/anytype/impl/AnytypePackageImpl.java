@@ -263,24 +263,24 @@ public class AnytypePackageImpl extends EPackageImpl implements AnytypePackage {
 
 		// Initialize classes, features, and operations; add parameters
 		initEClass(elementEClass, Element.class, "Element", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getElement_Name(), ecorePackage.getEString(), "name", null, 0, 1, Element.class, !IS_TRANSIENT,
+		initEAttribute(getElement_Name(), ecorePackage.getEString(), "Name", null, 0, 1, Element.class, !IS_TRANSIENT,
 				!IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getElement_Value(), ecorePackage.getEString(), "value", null, 0, 1, Element.class, !IS_TRANSIENT,
+		initEAttribute(getElement_Value(), ecorePackage.getEString(), "Value", null, 0, 1, Element.class, !IS_TRANSIENT,
 				!IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(genericElementEClass, GenericElement.class, "GenericElement", !IS_ABSTRACT, !IS_INTERFACE,
 				IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getGenericElement_NestedElements(), this.getGenericElement(), null, "nestedElements", null, 0,
+		initEReference(getGenericElement_NestedElements(), this.getGenericElement(), null, "NestedElements", null, 0,
 				-1, GenericElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getGenericElement_Attributes(), this.getGenericAttribute(), null, "attributes", null, 0, -1,
+		initEReference(getGenericElement_Attributes(), this.getGenericAttribute(), null, "Attributes", null, 0, -1,
 				GenericElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES,
 				!IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getGenericElement_ElementFeatureMap(), ecorePackage.getEFeatureMapEntry(), "elementFeatureMap",
+		initEAttribute(getGenericElement_ElementFeatureMap(), ecorePackage.getEFeatureMapEntry(), "ElementFeatureMap",
 				null, 0, -1, GenericElement.class, IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID,
 				!IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getGenericElement_AttributeFeatureMap(), ecorePackage.getEFeatureMapEntry(),
-				"attributeFeatureMap", null, 0, -1, GenericElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE,
+				"AttributeFeatureMap", null, 0, -1, GenericElement.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE,
 				!IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(genericAttributeEClass, GenericAttribute.class, "GenericAttribute", !IS_ABSTRACT, !IS_INTERFACE,

@@ -82,8 +82,6 @@ public class DocumentRootItemProvider
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
 			childrenFeatures.add(CAEXPackage.Literals.DOCUMENT_ROOT__MIXED);
-			childrenFeatures.add(CAEXPackage.Literals.DOCUMENT_ROOT__XMLNS_PREFIX_MAP);
-			childrenFeatures.add(CAEXPackage.Literals.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION);
 			childrenFeatures.add(CAEXPackage.Literals.DOCUMENT_ROOT__CAEX_FILE);
 		}
 		return childrenFeatures;
@@ -138,8 +136,6 @@ public class DocumentRootItemProvider
 
 		switch (notification.getFeatureID(DocumentRoot.class)) {
 			case CAEXPackage.DOCUMENT_ROOT__MIXED:
-			case CAEXPackage.DOCUMENT_ROOT__XMLNS_PREFIX_MAP:
-			case CAEXPackage.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION:
 			case CAEXPackage.DOCUMENT_ROOT__CAEX_FILE:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 				return;

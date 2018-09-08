@@ -11,14 +11,14 @@
   <genPackages prefix="Anytype" basePackage="caex" disposableProviderFactory="true"
       ecorePackage="GenericAnyType.ecore#/">
     <genClasses image="false" ecoreClass="GenericAnyType.ecore#//Element">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GenericAnyType.ecore#//Element/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GenericAnyType.ecore#//Element/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GenericAnyType.ecore#//Element/Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute GenericAnyType.ecore#//Element/Value"/>
     </genClasses>
     <genClasses ecoreClass="GenericAnyType.ecore#//GenericElement">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GenericAnyType.ecore#//GenericElement/nestedElements"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GenericAnyType.ecore#//GenericElement/attributes"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute GenericAnyType.ecore#//GenericElement/elementFeatureMap"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute GenericAnyType.ecore#//GenericElement/attributeFeatureMap"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GenericAnyType.ecore#//GenericElement/NestedElements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference GenericAnyType.ecore#//GenericElement/Attributes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute GenericAnyType.ecore#//GenericElement/ElementFeatureMap"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute GenericAnyType.ecore#//GenericElement/AttributeFeatureMap"/>
     </genClasses>
     <genClasses ecoreClass="GenericAnyType.ecore#//GenericAttribute"/>
   </genPackages>

@@ -207,9 +207,9 @@ public abstract class ElementImpl extends MinimalEObjectImpl.Container implement
 			return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (name: ");
+		result.append(" (Name: ");
 		result.append(name);
-		result.append(", value: ");
+		result.append(", Value: ");
 		result.append(value);
 		result.append(')');
 		return result.toString();

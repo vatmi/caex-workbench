@@ -44,7 +44,7 @@ public class CAEXObjectImpl extends CAEXBasicObjectImpl implements CAEXObject {
 	 * @generated
 	 * @ordered
 	 */
-	protected String iD = ID_EDEFAULT;
+	protected String id = ID_EDEFAULT;
 
 	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
@@ -91,7 +91,7 @@ public class CAEXObjectImpl extends CAEXBasicObjectImpl implements CAEXObject {
 	 * @generated
 	 */
 	public String getID() {
-		return iD;
+		return id;
 	}
 
 	/**
@@ -100,10 +100,10 @@ public class CAEXObjectImpl extends CAEXBasicObjectImpl implements CAEXObject {
 	 * @generated
 	 */
 	public void setID(String newID) {
-		String oldID = iD;
-		iD = newID;
+		String oldID = id;
+		id = newID;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, CAEXPackage.CAEX_OBJECT__ID, oldID, iD));
+			eNotify(new ENotificationImpl(this, Notification.SET, CAEXPackage.CAEX_OBJECT__ID, oldID, id));
 	}
 
 	/**
@@ -188,7 +188,7 @@ public class CAEXObjectImpl extends CAEXBasicObjectImpl implements CAEXObject {
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case CAEXPackage.CAEX_OBJECT__ID:
-				return ID_EDEFAULT == null ? iD != null : !ID_EDEFAULT.equals(iD);
+				return ID_EDEFAULT == null ? id != null : !ID_EDEFAULT.equals(id);
 			case CAEXPackage.CAEX_OBJECT__NAME:
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 		}
@@ -205,9 +205,9 @@ public class CAEXObjectImpl extends CAEXBasicObjectImpl implements CAEXObject {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (iD: ");
-		result.append(iD);
-		result.append(", name: ");
+		result.append(" (ID: ");
+		result.append(id);
+		result.append(", Name: ");
 		result.append(name);
 		result.append(')');
 		return result.toString();

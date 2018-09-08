@@ -486,7 +486,7 @@ public class CAEXBasicObjectImpl extends MinimalEObjectImpl.Container implements
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (changeMode: ");
+		result.append(" (ChangeMode: ");
 		if (changeModeESet) result.append(changeMode); else result.append("<unset>");
 		result.append(')');
 		return result.toString();

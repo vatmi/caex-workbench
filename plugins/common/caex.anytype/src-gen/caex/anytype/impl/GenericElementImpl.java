@@ -272,9 +272,9 @@ public class GenericElementImpl extends ElementImpl implements GenericElement {
 			return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (elementFeatureMap: ");
+		result.append(" (ElementFeatureMap: ");
 		result.append(elementFeatureMap);
-		result.append(", attributeFeatureMap: ");
+		result.append(", AttributeFeatureMap: ");
 		result.append(attributeFeatureMap);
 		result.append(')');
 		return result.toString();

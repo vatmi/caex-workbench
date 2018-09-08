@@ -58,7 +58,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * @generated
 	 * @ordered
 	 */
-	protected EMap<String, String> xMLNSPrefixMap;
+	protected EMap<String, String> xmlnsPrefixMap;
 
 	/**
 	 * The cached value of the '{@link #getXSISchemaLocation() <em>XSI Schema Location</em>}' map.
@@ -68,7 +68,7 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * @generated
 	 * @ordered
 	 */
-	protected EMap<String, String> xSISchemaLocation;
+	protected EMap<String, String> xsiSchemaLocation;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -107,10 +107,10 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * @generated
 	 */
 	public EMap<String, String> getXMLNSPrefixMap() {
-		if (xMLNSPrefixMap == null) {
-			xMLNSPrefixMap = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, CAEXPackage.DOCUMENT_ROOT__XMLNS_PREFIX_MAP);
+		if (xmlnsPrefixMap == null) {
+			xmlnsPrefixMap = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, CAEXPackage.DOCUMENT_ROOT__XMLNS_PREFIX_MAP);
 		}
-		return xMLNSPrefixMap;
+		return xmlnsPrefixMap;
 	}
 
 	/**
@@ -119,10 +119,10 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 	 * @generated
 	 */
 	public EMap<String, String> getXSISchemaLocation() {
-		if (xSISchemaLocation == null) {
-			xSISchemaLocation = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, CAEXPackage.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION);
+		if (xsiSchemaLocation == null) {
+			xsiSchemaLocation = new EcoreEMap<String,String>(EcorePackage.Literals.ESTRING_TO_STRING_MAP_ENTRY, EStringToStringMapEntryImpl.class, this, CAEXPackage.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION);
 		}
-		return xSISchemaLocation;
+		return xsiSchemaLocation;
 	}
 
 	/**
@@ -254,9 +254,9 @@ public class DocumentRootImpl extends MinimalEObjectImpl.Container implements Do
 			case CAEXPackage.DOCUMENT_ROOT__MIXED:
 				return mixed != null && !mixed.isEmpty();
 			case CAEXPackage.DOCUMENT_ROOT__XMLNS_PREFIX_MAP:
-				return xMLNSPrefixMap != null && !xMLNSPrefixMap.isEmpty();
+				return xmlnsPrefixMap != null && !xmlnsPrefixMap.isEmpty();
 			case CAEXPackage.DOCUMENT_ROOT__XSI_SCHEMA_LOCATION:
-				return xSISchemaLocation != null && !xSISchemaLocation.isEmpty();
+				return xsiSchemaLocation != null && !xsiSchemaLocation.isEmpty();
 			case CAEXPackage.DOCUMENT_ROOT__CAEX_FILE:
 				return getCAEXFile() != null;
 		}

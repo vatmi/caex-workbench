@@ -68,8 +68,8 @@ public class ElementItemProvider extends ItemProviderAdapter implements IEditing
 	protected void addNamePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
 				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_Element_name_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_Element_name_feature", "_UI_Element_type"),
+						getResourceLocator(), getString("_UI_Element_Name_feature"),
+						getString("_UI_PropertyDescriptor_description", "_UI_Element_Name_feature", "_UI_Element_type"),
 						AnytypePackage.Literals.ELEMENT__NAME, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
@@ -83,8 +83,8 @@ public class ElementItemProvider extends ItemProviderAdapter implements IEditing
 	protected void addValuePropertyDescriptor(Object object) {
 		itemPropertyDescriptors
 				.add(createItemPropertyDescriptor(((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(),
-						getResourceLocator(), getString("_UI_Element_value_feature"),
-						getString("_UI_PropertyDescriptor_description", "_UI_Element_value_feature",
+						getResourceLocator(), getString("_UI_Element_Value_feature"),
+						getString("_UI_PropertyDescriptor_description", "_UI_Element_Value_feature",
 								"_UI_Element_type"),
 						AnytypePackage.Literals.ELEMENT__VALUE, true, false, false,
 						ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));

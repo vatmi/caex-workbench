@@ -62,8 +62,8 @@ public class CAEXObjectItemProvider extends CAEXBasicObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_CAEXObject_iD_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_CAEXObject_iD_feature", "_UI_CAEXObject_type"),
+				 getString("_UI_CAEXObject_ID_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_CAEXObject_ID_feature", "_UI_CAEXObject_type"),
 				 CAEXPackage.Literals.CAEX_OBJECT__ID,
 				 true,
 				 false,
@@ -84,8 +84,8 @@ public class CAEXObjectItemProvider extends CAEXBasicObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_CAEXObject_name_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_CAEXObject_name_feature", "_UI_CAEXObject_type"),
+				 getString("_UI_CAEXObject_Name_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_CAEXObject_Name_feature", "_UI_CAEXObject_type"),
 				 CAEXPackage.Literals.CAEX_OBJECT__NAME,
 				 true,
 				 false,

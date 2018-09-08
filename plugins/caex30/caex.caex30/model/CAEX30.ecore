@@ -197,7 +197,7 @@
       <details key="name" value="CAEXBasicObject"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="changeMode" eType="#//ChangeMode"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ChangeMode" eType="#//ChangeMode"
         defaultValueLiteral="state" unsettable="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Optionally describes the change state of a CAEX object. If used, the ChangeMode shall have the following value range: state, create, delete and change. This information should be used for further change management applications."/>
@@ -207,7 +207,7 @@
         <details key="name" value="ChangeMode"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="description" eType="#//Description"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Description" eType="#//Description"
         containment="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Textual description for CAEX objects."/>
@@ -218,7 +218,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="version" eType="#//Version"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Version" eType="#//Version"
         containment="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Organizational information about the state of the version."/>
@@ -229,7 +229,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="revision" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Revision" upperBound="-1"
         eType="#//Revision" containment="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Organizational information about the state of the revision."/>
@@ -240,7 +240,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="copyright" eType="#//Copyright"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Copyright" eType="#//Copyright"
         containment="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Organizational information about copyright."/>
@@ -251,7 +251,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="additionalInformation"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="AdditionalInformation"
         upperBound="-1" eType="#//AdditionalInformation" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CAEXFile" eSuperTypes="#//CAEXBasicObject">
@@ -259,7 +259,7 @@
       <details key="name" value="CAEXFile_._type"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="superiorStandardVersion"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="SuperiorStandardVersion"
         unique="false" upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Describes the version of a superior standard, e.g. AutomationML x.y. The version string is defined in the superior standard."/>
@@ -270,7 +270,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="sourceDocumentInformation"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SourceDocumentInformation"
         lowerBound="1" upperBound="-1" eType="#//SourceDocumentInformation" containment="true"
         resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
@@ -348,7 +348,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fileName" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="FileName" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Describes the name of the CAEX file."/>
@@ -358,7 +358,7 @@
         <details key="name" value="FileName"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="schemaVersion" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="SchemaVersion" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String" defaultValueLiteral="3.00"
         unsettable="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
@@ -378,7 +378,7 @@
       <details key="name" value="CAEXObject"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="iD" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ID" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Optional attribute that describes a unique identifier of the CAEX object."/>
       </eAnnotations>
@@ -387,7 +387,7 @@
         <details key="name" value="ID"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Describes the name of the CAEX object."/>
       </eAnnotations>
@@ -424,7 +424,7 @@
         <details key="name" value=":mixed"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="xMLNSPrefixMap" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="XMLNSPrefixMap" upperBound="-1"
         eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EStringToStringMapEntry"
         transient="true" containment="true" resolveProxies="false">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
@@ -432,7 +432,7 @@
         <details key="name" value="xmlns:prefix"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="xSISchemaLocation" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="XSISchemaLocation" upperBound="-1"
         eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EStringToStringMapEntry"
         transient="true" containment="true" resolveProxies="false">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
@@ -440,7 +440,7 @@
         <details key="name" value="xsi:schemaLocation"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="cAEXFile" upperBound="-2"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="CAEXFile" upperBound="-2"
         eType="#//CAEXFile" volatile="true" transient="true" derived="true" containment="true"
         resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
