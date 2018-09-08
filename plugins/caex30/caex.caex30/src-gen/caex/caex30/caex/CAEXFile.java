@@ -160,7 +160,7 @@ public interface CAEXFile extends CAEXBasicObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
-	 * Container element for a hierarchy of SystemUnitClass definitions. It shall contain any SystemunitClass definitions. CAEX supports multiple SystemUnitClass libraries.
+	 * Container element for a hierarchy of SystemUnitClass definitions. It shall contain any SystemUnitClass definitions. CAEX supports multiple SystemUnitClass libraries.
 	 * <!-- end-model-doc -->
 	 * @return the value of the '<em>System Unit Class Lib</em>' containment reference list.
 	 * @see caex.caex30.caex.CAEXPackage#getCAEXFile_SystemUnitClassLib()

@@ -113,8 +113,8 @@ public class AttributeItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_Attribute_attributeDataType_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Attribute_attributeDataType_feature", "_UI_Attribute_type"),
+				 getString("_UI_Attribute_AttributeDataType_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Attribute_AttributeDataType_feature", "_UI_Attribute_type"),
 				 CAEXPackage.Literals.ATTRIBUTE__ATTRIBUTE_DATA_TYPE,
 				 true,
 				 false,
@@ -135,8 +135,8 @@ public class AttributeItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_Attribute_refAttributeType_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Attribute_refAttributeType_feature", "_UI_Attribute_type"),
+				 getString("_UI_Attribute_RefAttributeType_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Attribute_RefAttributeType_feature", "_UI_Attribute_type"),
 				 CAEXPackage.Literals.ATTRIBUTE__REF_ATTRIBUTE_TYPE,
 				 true,
 				 false,
@@ -179,8 +179,8 @@ public class AttributeItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_Attribute_referenceAttribute_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Attribute_referenceAttribute_feature", "_UI_Attribute_type"),
+				 getString("_UI_Attribute_ReferenceAttribute_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Attribute_ReferenceAttribute_feature", "_UI_Attribute_type"),
 				 CAEXPackage.Literals.ATTRIBUTE__REFERENCE_ATTRIBUTE,
 				 true,
 				 false,

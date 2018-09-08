@@ -18,24 +18,24 @@
     <genDataTypes ecoreDataType="CAEX30.ecore#//ChangeModeObject"/>
     <genClasses ecoreClass="CAEX30.ecore#//AttributeFamily"/>
     <genClasses ecoreClass="CAEX30.ecore#//AttributeNameMapping">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//AttributeNameMapping/roleAttributeName"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//AttributeNameMapping/systemUnitAttributeName"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//AttributeNameMapping/roleAttribute"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//AttributeNameMapping/systemUnitAttribute"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//AttributeNameMapping/RoleAttributeName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//AttributeNameMapping/SystemUnitAttributeName"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//AttributeNameMapping/RoleAttribute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//AttributeNameMapping/SystemUnitAttribute"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//Attribute">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//Attribute/defaultValue"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//Attribute/value"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//Attribute/refSemantic"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//Attribute/RefSemantic"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//Attribute/constraint"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//Attribute/attribute"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//Attribute/attributeDataType"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//Attribute/refAttributeType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//Attribute/Attribute"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//Attribute/AttributeDataType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//Attribute/RefAttributeType"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//Attribute/unit"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//Attribute/referenceAttribute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//Attribute/ReferenceAttribute"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//AttributeLib">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//AttributeLib/attributeType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//AttributeLib/AttributeType"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//AttributeValueRequirement">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//AttributeValueRequirement/ordinalScaledType"/>
@@ -54,12 +54,12 @@
     <genClasses ecoreClass="CAEX30.ecore#//CAEXFile">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//CAEXFile/superiorStandardVersion"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/sourceDocumentInformation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/externalReference"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/instanceHierarchy"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/interfaceClassLib"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/roleClassLib"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/systemUnitClassLib"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/attributeTypeLib"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/ExternalReference"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/InstanceHierarchy"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/InterfaceClassLib"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/RoleClassLib"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/SystemUnitClassLib"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//CAEXFile/AttributeTypeLib"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//CAEXFile/fileName"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//CAEXFile/schemaVersion"/>
     </genClasses>
@@ -79,39 +79,39 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//ExternalReference/path"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//InstanceHierarchy">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InstanceHierarchy/internalElement"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InstanceHierarchy/InternalElement"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//InterfaceClassLib">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceClassLib/interfaceClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceClassLib/InterfaceClass"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//InterfaceClass">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceClass/attribute"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//InterfaceClass/refBaseClassPath"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceClass/baseClass"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceClass/interfaceClass"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceClass/externalInterface"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceClass/Attribute"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//InterfaceClass/RefBaseClassPath"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceClass/BaseClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceClass/InterfaceClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceClass/ExternalInterface"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//InterfaceFamily"/>
     <genClasses ecoreClass="CAEX30.ecore#//InterfaceIDMapping">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//InterfaceIDMapping/roleInterfaceID"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//InterfaceIDMapping/systemUnitInterfaceID"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceIDMapping/roleInterface"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceIDMapping/systemUnitInterface"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//InterfaceIDMapping/RoleInterfaceID"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//InterfaceIDMapping/SystemUnitInterfaceID"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceIDMapping/RoleInterface"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InterfaceIDMapping/SystemUnitInterface"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//InternalElement">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InternalElement/roleRequirements"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//InternalElement/refBaseSystemUnitPath"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InternalElement/baseSystemUnit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InternalElement/RoleRequirements"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//InternalElement/RefBaseSystemUnitPath"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InternalElement/BaseSystemUnit"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//InternalLink">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//InternalLink/refPartnerSideA"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//InternalLink/refPartnerSideB"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InternalLink/partnerSideA"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InternalLink/partnerSideB"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//InternalLink/RefPartnerSideA"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//InternalLink/RefPartnerSideB"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InternalLink/PartnerSideA"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//InternalLink/PartnerSideB"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//Mapping">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//Mapping/attributeNameMapping"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//Mapping/interfaceIDMapping"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//Mapping/AttributeNameMapping"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//Mapping/InterfaceIDMapping"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//NominalScaled">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//NominalScaled/requiredValue"/>
@@ -125,22 +125,22 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//RefSemantic/correspondingAttributePath"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//RoleClassLib">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleClassLib/roleClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleClassLib/RoleClass"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//RoleClass">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleClass/attribute"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleClass/externalInterface"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//RoleClass/refBaseClassPath"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleClass/baseClass"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleClass/roleClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleClass/Attribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleClass/ExternalInterface"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//RoleClass/RefBaseClassPath"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleClass/BaseClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleClass/RoleClass"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//RoleFamily"/>
     <genClasses ecoreClass="CAEX30.ecore#//RoleRequirements">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleRequirements/attribute"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleRequirements/externalInterface"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleRequirements/mappingObject"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleRequirements/roleClass"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//RoleRequirements/refBaseRoleClassPath"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleRequirements/Attribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleRequirements/ExternalInterface"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleRequirements/MappingObject"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//RoleRequirements/RoleClass"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//RoleRequirements/RefBaseRoleClassPath"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//SourceDocumentInformation">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//SourceDocumentInformation/lastWritingDateTime"/>
@@ -154,22 +154,22 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//SourceDocumentInformation/originVersion"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//SupportedRoleClass">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SupportedRoleClass/mappingObject"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//SupportedRoleClass/refRoleClassPath"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SupportedRoleClass/roleClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SupportedRoleClass/MappingObject"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//SupportedRoleClass/RefRoleClassPath"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SupportedRoleClass/RoleClass"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//SystemUnitClassLib">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClassLib/systemUnitClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClassLib/SystemUnitClass"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//SystemUnitClass">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/attribute"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/externalInterface"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/internalElement"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/supportedRoleClass"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/internalLink"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/baseClass"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/systemUnitClass"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//SystemUnitClass/refBaseClassPath"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/Attribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/ExternalInterface"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/InternalElement"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/SupportedRoleClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/InternalLink"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/BaseClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference CAEX30.ecore#//SystemUnitClass/SystemUnitClass"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute CAEX30.ecore#//SystemUnitClass/RefBaseClassPath"/>
     </genClasses>
     <genClasses ecoreClass="CAEX30.ecore#//SystemUnitFamily"/>
     <genClasses ecoreClass="CAEX30.ecore#//UnknownType">

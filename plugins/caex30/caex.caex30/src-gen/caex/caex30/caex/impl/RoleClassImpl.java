@@ -345,7 +345,7 @@ public class RoleClassImpl extends CAEXObjectImpl implements RoleClass {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (refBaseClassPath: ");
+		result.append(" (RefBaseClassPath: ");
 		result.append(refBaseClassPath);
 		result.append(')');
 		return result.toString();

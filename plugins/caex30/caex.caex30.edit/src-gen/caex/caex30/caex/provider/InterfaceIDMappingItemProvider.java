@@ -65,8 +65,8 @@ public class InterfaceIDMappingItemProvider extends CAEXBasicObjectItemProvider 
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_InterfaceIDMapping_roleInterfaceID_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_InterfaceIDMapping_roleInterfaceID_feature", "_UI_InterfaceIDMapping_type"),
+				 getString("_UI_InterfaceIDMapping_RoleInterfaceID_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_InterfaceIDMapping_RoleInterfaceID_feature", "_UI_InterfaceIDMapping_type"),
 				 CAEXPackage.Literals.INTERFACE_ID_MAPPING__ROLE_INTERFACE_ID,
 				 true,
 				 false,
@@ -87,8 +87,8 @@ public class InterfaceIDMappingItemProvider extends CAEXBasicObjectItemProvider 
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_InterfaceIDMapping_systemUnitInterfaceID_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_InterfaceIDMapping_systemUnitInterfaceID_feature", "_UI_InterfaceIDMapping_type"),
+				 getString("_UI_InterfaceIDMapping_SystemUnitInterfaceID_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_InterfaceIDMapping_SystemUnitInterfaceID_feature", "_UI_InterfaceIDMapping_type"),
 				 CAEXPackage.Literals.INTERFACE_ID_MAPPING__SYSTEM_UNIT_INTERFACE_ID,
 				 true,
 				 false,
@@ -109,8 +109,8 @@ public class InterfaceIDMappingItemProvider extends CAEXBasicObjectItemProvider 
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_InterfaceIDMapping_roleInterface_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_InterfaceIDMapping_roleInterface_feature", "_UI_InterfaceIDMapping_type"),
+				 getString("_UI_InterfaceIDMapping_RoleInterface_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_InterfaceIDMapping_RoleInterface_feature", "_UI_InterfaceIDMapping_type"),
 				 CAEXPackage.Literals.INTERFACE_ID_MAPPING__ROLE_INTERFACE,
 				 true,
 				 false,
@@ -131,8 +131,8 @@ public class InterfaceIDMappingItemProvider extends CAEXBasicObjectItemProvider 
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_InterfaceIDMapping_systemUnitInterface_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_InterfaceIDMapping_systemUnitInterface_feature", "_UI_InterfaceIDMapping_type"),
+				 getString("_UI_InterfaceIDMapping_SystemUnitInterface_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_InterfaceIDMapping_SystemUnitInterface_feature", "_UI_InterfaceIDMapping_type"),
 				 CAEXPackage.Literals.INTERFACE_ID_MAPPING__SYSTEM_UNIT_INTERFACE,
 				 true,
 				 false,

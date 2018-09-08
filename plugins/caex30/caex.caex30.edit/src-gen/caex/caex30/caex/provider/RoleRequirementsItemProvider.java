@@ -64,8 +64,8 @@ public class RoleRequirementsItemProvider extends CAEXBasicObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_RoleRequirements_roleClass_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_RoleRequirements_roleClass_feature", "_UI_RoleRequirements_type"),
+				 getString("_UI_RoleRequirements_RoleClass_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_RoleRequirements_RoleClass_feature", "_UI_RoleRequirements_type"),
 				 CAEXPackage.Literals.ROLE_REQUIREMENTS__ROLE_CLASS,
 				 true,
 				 false,
@@ -86,8 +86,8 @@ public class RoleRequirementsItemProvider extends CAEXBasicObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_RoleRequirements_refBaseRoleClassPath_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_RoleRequirements_refBaseRoleClassPath_feature", "_UI_RoleRequirements_type"),
+				 getString("_UI_RoleRequirements_RefBaseRoleClassPath_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_RoleRequirements_RefBaseRoleClassPath_feature", "_UI_RoleRequirements_type"),
 				 CAEXPackage.Literals.ROLE_REQUIREMENTS__REF_BASE_ROLE_CLASS_PATH,
 				 true,
 				 false,
@@ -207,11 +207,6 @@ public class RoleRequirementsItemProvider extends CAEXBasicObjectItemProvider {
 			(createChildParameter
 				(CAEXPackage.Literals.ROLE_REQUIREMENTS__EXTERNAL_INTERFACE,
 				 CAEXFactory.eINSTANCE.createInterfaceClass()));
-
-		newChildDescriptors.add
-			(createChildParameter
-				(CAEXPackage.Literals.ROLE_REQUIREMENTS__EXTERNAL_INTERFACE,
-				 CAEXFactory.eINSTANCE.createExternalInterface()));
 
 		newChildDescriptors.add
 			(createChildParameter

@@ -65,8 +65,8 @@ public class InterfaceClassItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_InterfaceClass_refBaseClassPath_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_InterfaceClass_refBaseClassPath_feature", "_UI_InterfaceClass_type"),
+				 getString("_UI_InterfaceClass_RefBaseClassPath_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_InterfaceClass_RefBaseClassPath_feature", "_UI_InterfaceClass_type"),
 				 CAEXPackage.Literals.INTERFACE_CLASS__REF_BASE_CLASS_PATH,
 				 true,
 				 false,
@@ -87,8 +87,8 @@ public class InterfaceClassItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_InterfaceClass_baseClass_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_InterfaceClass_baseClass_feature", "_UI_InterfaceClass_type"),
+				 getString("_UI_InterfaceClass_BaseClass_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_InterfaceClass_BaseClass_feature", "_UI_InterfaceClass_type"),
 				 CAEXPackage.Literals.INTERFACE_CLASS__BASE_CLASS,
 				 true,
 				 false,
@@ -210,22 +210,12 @@ public class InterfaceClassItemProvider extends CAEXObjectItemProvider {
 		newChildDescriptors.add
 			(createChildParameter
 				(CAEXPackage.Literals.INTERFACE_CLASS__INTERFACE_CLASS,
-				 CAEXFactory.eINSTANCE.createExternalInterface()));
-
-		newChildDescriptors.add
-			(createChildParameter
-				(CAEXPackage.Literals.INTERFACE_CLASS__INTERFACE_CLASS,
 				 CAEXFactory.eINSTANCE.createInterfaceFamily()));
 
 		newChildDescriptors.add
 			(createChildParameter
 				(CAEXPackage.Literals.INTERFACE_CLASS__EXTERNAL_INTERFACE,
 				 CAEXFactory.eINSTANCE.createInterfaceClass()));
-
-		newChildDescriptors.add
-			(createChildParameter
-				(CAEXPackage.Literals.INTERFACE_CLASS__EXTERNAL_INTERFACE,
-				 CAEXFactory.eINSTANCE.createExternalInterface()));
 
 		newChildDescriptors.add
 			(createChildParameter

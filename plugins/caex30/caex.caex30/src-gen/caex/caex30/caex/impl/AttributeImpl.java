@@ -557,9 +557,9 @@ public class AttributeImpl extends CAEXObjectImpl implements Attribute {
 		result.append(defaultValue);
 		result.append(", value: ");
 		result.append(value);
-		result.append(", attributeDataType: ");
+		result.append(", AttributeDataType: ");
 		result.append(attributeDataType);
-		result.append(", refAttributeType: ");
+		result.append(", RefAttributeType: ");
 		result.append(refAttributeType);
 		result.append(", unit: ");
 		result.append(unit);

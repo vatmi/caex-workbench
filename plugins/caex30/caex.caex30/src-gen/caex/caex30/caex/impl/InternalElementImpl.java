@@ -273,7 +273,7 @@ public class InternalElementImpl extends SystemUnitClassImpl implements Internal
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (refBaseSystemUnitPath: ");
+		result.append(" (RefBaseSystemUnitPath: ");
 		result.append(refBaseSystemUnitPath);
 		result.append(')');
 		return result.toString();

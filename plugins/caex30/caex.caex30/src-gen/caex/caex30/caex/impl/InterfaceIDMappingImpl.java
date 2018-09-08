@@ -327,9 +327,9 @@ public class InterfaceIDMappingImpl extends CAEXBasicObjectImpl implements Inter
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (roleInterfaceID: ");
+		result.append(" (RoleInterfaceID: ");
 		result.append(roleInterfaceID);
-		result.append(", systemUnitInterfaceID: ");
+		result.append(", SystemUnitInterfaceID: ");
 		result.append(systemUnitInterfaceID);
 		result.append(')');
 		return result.toString();

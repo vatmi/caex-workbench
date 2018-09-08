@@ -64,8 +64,8 @@ public class InternalLinkItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_InternalLink_refPartnerSideA_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_InternalLink_refPartnerSideA_feature", "_UI_InternalLink_type"),
+				 getString("_UI_InternalLink_RefPartnerSideA_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_InternalLink_RefPartnerSideA_feature", "_UI_InternalLink_type"),
 				 CAEXPackage.Literals.INTERNAL_LINK__REF_PARTNER_SIDE_A,
 				 true,
 				 false,
@@ -86,8 +86,8 @@ public class InternalLinkItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_InternalLink_refPartnerSideB_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_InternalLink_refPartnerSideB_feature", "_UI_InternalLink_type"),
+				 getString("_UI_InternalLink_RefPartnerSideB_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_InternalLink_RefPartnerSideB_feature", "_UI_InternalLink_type"),
 				 CAEXPackage.Literals.INTERNAL_LINK__REF_PARTNER_SIDE_B,
 				 true,
 				 false,
@@ -108,8 +108,8 @@ public class InternalLinkItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_InternalLink_partnerSideA_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_InternalLink_partnerSideA_feature", "_UI_InternalLink_type"),
+				 getString("_UI_InternalLink_PartnerSideA_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_InternalLink_PartnerSideA_feature", "_UI_InternalLink_type"),
 				 CAEXPackage.Literals.INTERNAL_LINK__PARTNER_SIDE_A,
 				 true,
 				 false,
@@ -130,8 +130,8 @@ public class InternalLinkItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_InternalLink_partnerSideB_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_InternalLink_partnerSideB_feature", "_UI_InternalLink_type"),
+				 getString("_UI_InternalLink_PartnerSideB_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_InternalLink_PartnerSideB_feature", "_UI_InternalLink_type"),
 				 CAEXPackage.Literals.INTERNAL_LINK__PARTNER_SIDE_B,
 				 true,
 				 false,

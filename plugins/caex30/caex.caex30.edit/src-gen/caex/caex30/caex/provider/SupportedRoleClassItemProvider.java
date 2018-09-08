@@ -63,8 +63,8 @@ public class SupportedRoleClassItemProvider extends CAEXBasicObjectItemProvider 
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_SupportedRoleClass_refRoleClassPath_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_SupportedRoleClass_refRoleClassPath_feature", "_UI_SupportedRoleClass_type"),
+				 getString("_UI_SupportedRoleClass_RefRoleClassPath_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_SupportedRoleClass_RefRoleClassPath_feature", "_UI_SupportedRoleClass_type"),
 				 CAEXPackage.Literals.SUPPORTED_ROLE_CLASS__REF_ROLE_CLASS_PATH,
 				 true,
 				 false,
@@ -85,8 +85,8 @@ public class SupportedRoleClassItemProvider extends CAEXBasicObjectItemProvider 
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_SupportedRoleClass_roleClass_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_SupportedRoleClass_roleClass_feature", "_UI_SupportedRoleClass_type"),
+				 getString("_UI_SupportedRoleClass_RoleClass_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_SupportedRoleClass_RoleClass_feature", "_UI_SupportedRoleClass_type"),
 				 CAEXPackage.Literals.SUPPORTED_ROLE_CLASS__ROLE_CLASS,
 				 true,
 				 false,

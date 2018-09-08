@@ -377,7 +377,7 @@ public class RoleRequirementsImpl extends CAEXBasicObjectImpl implements RoleReq
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (refBaseRoleClassPath: ");
+		result.append(" (RefBaseRoleClassPath: ");
 		result.append(refBaseRoleClassPath);
 		result.append(')');
 		return result.toString();

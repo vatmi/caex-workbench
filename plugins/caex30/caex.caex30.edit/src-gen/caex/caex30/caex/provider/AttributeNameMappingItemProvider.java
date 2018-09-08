@@ -64,8 +64,8 @@ public class AttributeNameMappingItemProvider extends CAEXBasicObjectItemProvide
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_AttributeNameMapping_roleAttributeName_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_AttributeNameMapping_roleAttributeName_feature", "_UI_AttributeNameMapping_type"),
+				 getString("_UI_AttributeNameMapping_RoleAttributeName_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_AttributeNameMapping_RoleAttributeName_feature", "_UI_AttributeNameMapping_type"),
 				 CAEXPackage.Literals.ATTRIBUTE_NAME_MAPPING__ROLE_ATTRIBUTE_NAME,
 				 true,
 				 false,
@@ -86,8 +86,8 @@ public class AttributeNameMappingItemProvider extends CAEXBasicObjectItemProvide
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_AttributeNameMapping_systemUnitAttributeName_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_AttributeNameMapping_systemUnitAttributeName_feature", "_UI_AttributeNameMapping_type"),
+				 getString("_UI_AttributeNameMapping_SystemUnitAttributeName_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_AttributeNameMapping_SystemUnitAttributeName_feature", "_UI_AttributeNameMapping_type"),
 				 CAEXPackage.Literals.ATTRIBUTE_NAME_MAPPING__SYSTEM_UNIT_ATTRIBUTE_NAME,
 				 true,
 				 false,
@@ -108,8 +108,8 @@ public class AttributeNameMappingItemProvider extends CAEXBasicObjectItemProvide
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_AttributeNameMapping_roleAttribute_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_AttributeNameMapping_roleAttribute_feature", "_UI_AttributeNameMapping_type"),
+				 getString("_UI_AttributeNameMapping_RoleAttribute_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_AttributeNameMapping_RoleAttribute_feature", "_UI_AttributeNameMapping_type"),
 				 CAEXPackage.Literals.ATTRIBUTE_NAME_MAPPING__ROLE_ATTRIBUTE,
 				 true,
 				 false,
@@ -130,8 +130,8 @@ public class AttributeNameMappingItemProvider extends CAEXBasicObjectItemProvide
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_AttributeNameMapping_systemUnitAttribute_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_AttributeNameMapping_systemUnitAttribute_feature", "_UI_AttributeNameMapping_type"),
+				 getString("_UI_AttributeNameMapping_SystemUnitAttribute_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_AttributeNameMapping_SystemUnitAttribute_feature", "_UI_AttributeNameMapping_type"),
 				 CAEXPackage.Literals.ATTRIBUTE_NAME_MAPPING__SYSTEM_UNIT_ATTRIBUTE,
 				 true,
 				 false,

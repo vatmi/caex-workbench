@@ -25,23 +25,23 @@
       <details key="name" value="AttributeNameMapping_._type"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="roleAttributeName" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RoleAttributeName" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="kind" value="attribute"/>
         <details key="name" value="RoleAttributeName"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="systemUnitAttributeName"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="SystemUnitAttributeName"
         lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="kind" value="attribute"/>
         <details key="name" value="SystemUnitAttributeName"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="roleAttribute" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="RoleAttribute" lowerBound="1"
         eType="#//Attribute"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="systemUnitAttribute" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SystemUnitAttribute" lowerBound="1"
         eType="#//Attribute"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Attribute" eSuperTypes="#//CAEXObject">
@@ -72,7 +72,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="refSemantic" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="RefSemantic" upperBound="-1"
         eType="#//RefSemantic" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="A reference to a definition of a defined attribute, e. g. to an attribute in a standardized library, this allows the semantic definition of the attribute."/>
@@ -94,7 +94,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Attribute" upperBound="-1"
         eType="#//Attribute" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Element that allows the description of nested attributes."/>
@@ -105,7 +105,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attributeDataType" eType="#//AttributeDataType">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="AttributeDataType" eType="#//AttributeDataType">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Describes the data type of the attribute using XML notation."/>
       </eAnnotations>
@@ -114,7 +114,7 @@
         <details key="name" value="AttributeDataType"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refAttributeType" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RefAttributeType" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Refences an attribute type in the attribute library."/>
       </eAnnotations>
@@ -132,10 +132,10 @@
         <details key="name" value="Unit"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="referenceAttribute" eType="#//Attribute"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ReferenceAttribute" eType="#//Attribute"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AttributeLib" eSuperTypes="#//CAEXObject">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="attributeType" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="AttributeType" upperBound="-1"
         eType="#//Attribute" containment="true" resolveProxies="false"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AttributeValueRequirement" eSuperTypes="#//CAEXBasicObject">
@@ -282,7 +282,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="externalReference" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ExternalReference" upperBound="-1"
         eType="#//ExternalReference" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Container element for the alias definition of external CAEX files."/>
@@ -293,7 +293,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="instanceHierarchy" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="InstanceHierarchy" upperBound="-1"
         eType="#//InstanceHierarchy" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Root element for a system hierarchy of object instances."/>
@@ -304,7 +304,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="interfaceClassLib" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="InterfaceClassLib" upperBound="-1"
         eType="#//InterfaceClassLib" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Container element for a hierarchy of InterfaceClass definitions. It shall contain any interface class definitions. CAEX supports multiple interface libraries."/>
@@ -315,7 +315,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="roleClassLib" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="RoleClassLib" upperBound="-1"
         eType="#//RoleClassLib" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Container element for a hierarchy of RoleClass definitions. It shall contain any RoleClass definitions. CAEX supports multiple role libraries."/>
@@ -326,10 +326,10 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="systemUnitClassLib" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SystemUnitClassLib" upperBound="-1"
         eType="#//SystemUnitClassLib" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
-        <details key="documentation" value="Container element for a hierarchy of SystemUnitClass definitions. It shall contain any SystemunitClass definitions. CAEX supports multiple SystemUnitClass libraries."/>
+        <details key="documentation" value="Container element for a hierarchy of SystemUnitClass definitions. It shall contain any SystemUnitClass definitions. CAEX supports multiple SystemUnitClass libraries."/>
       </eAnnotations>
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="kind" value="element"/>
@@ -337,7 +337,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="attributeTypeLib" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="AttributeTypeLib" upperBound="-1"
         eType="#//AttributeLib" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Container element for a hierarchy of Attribute type definitions. CAEX supports multiple attribute type libraries."/>
@@ -488,7 +488,7 @@
       <details key="name" value="InstanceHierarchy_._type"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="internalElement" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="InternalElement" upperBound="-1"
         eType="#//InternalElement" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Shall be used in order to define nested objects inside of a SystemUnitClass or another InternalElement. Allows description of the internal structure of a CAEX object."/>
@@ -505,7 +505,7 @@
       <details key="name" value="InterfaceClassLib_._type"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="interfaceClass" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="InterfaceClass" upperBound="-1"
         eType="#//InterfaceClass" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Class definition for interfaces."/>
@@ -525,7 +525,7 @@
       <details key="name" value="InterfaceClassType"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Attribute" upperBound="-1"
         eType="#//Attribute" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Characterizes properties of the InterfaceClass."/>
@@ -536,7 +536,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refBaseClassPath" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RefBaseClassPath" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Stores the reference of a class to its base class. References contain the full path to the refered class object."/>
       </eAnnotations>
@@ -545,10 +545,10 @@
         <details key="name" value="RefBaseClassPath"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="baseClass" eType="#//InterfaceClass"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="interfaceClass" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="BaseClass" eType="#//InterfaceClass"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="InterfaceClass" upperBound="-1"
         eType="#//InterfaceClass" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="externalInterface" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ExternalInterface" upperBound="-1"
         eType="#//InterfaceClass" containment="true" resolveProxies="false">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="kind" value="element"/>
@@ -571,23 +571,23 @@
       <details key="name" value="InterfaceIDMapping_._type"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="roleInterfaceID" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RoleInterfaceID" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="kind" value="attribute"/>
         <details key="name" value="RoleInterfaceID"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="systemUnitInterfaceID"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="SystemUnitInterfaceID"
         lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="kind" value="attribute"/>
         <details key="name" value="SystemUnitInterfaceID"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="roleInterface" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="RoleInterface" lowerBound="1"
         eType="#//ExternalInterface"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="systemUnitInterface" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SystemUnitInterface" lowerBound="1"
         eType="#//ExternalInterface"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InternalElement" eSuperTypes="#//SystemUnitClass">
@@ -598,7 +598,7 @@
       <details key="name" value="InternalElementType"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="roleRequirements" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="RoleRequirements" upperBound="-1"
         eType="#//RoleRequirements" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Describes role requirements of an InternalElement. It allows the definition of a reference to a RoleClass and the specification of role requirements like required attributes and required interfaces. "/>
@@ -609,7 +609,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refBaseSystemUnitPath"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RefBaseSystemUnitPath"
         eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Stores the reference of an InternalElement to a class or instance definition. References contain the full path information. "/>
@@ -619,30 +619,30 @@
         <details key="name" value="RefBaseSystemUnitPath"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="baseSystemUnit" eType="#//SystemUnitClass"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="BaseSystemUnit" eType="#//SystemUnitClass"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InternalLink" eSuperTypes="#//CAEXObject">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
       <details key="name" value="InternalLink_._type"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refPartnerSideA" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RefPartnerSideA" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="kind" value="attribute"/>
         <details key="name" value="RefPartnerSideA"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refPartnerSideB" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RefPartnerSideB" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="kind" value="attribute"/>
         <details key="name" value="RefPartnerSideB"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="partnerSideA" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="PartnerSideA" lowerBound="1"
         eType="#//InterfaceClass"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="partnerSideB" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="PartnerSideB" lowerBound="1"
         eType="#//InterfaceClass"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Mapping" eSuperTypes="#//CAEXBasicObject">
@@ -653,7 +653,7 @@
       <details key="name" value="MappingType"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="attributeNameMapping" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="AttributeNameMapping" upperBound="-1"
         eType="#//AttributeNameMapping" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Allows the definition of the mapping between attributes of a related role class or its interfaces and attributes of the hosting system unit"/>
@@ -664,7 +664,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="interfaceIDMapping" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="InterfaceIDMapping" upperBound="-1"
         eType="#//InterfaceIDMapping" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Allows the definition of the mapping between interfaces of a related role class and interfaces of the hosting system unit."/>
@@ -703,7 +703,7 @@
       <details key="name" value="RoleClassLib_._type"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="roleClass" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="RoleClass" upperBound="-1"
         eType="#//RoleClass" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Definition of a class of a role type."/>
@@ -723,7 +723,7 @@
       <details key="name" value="RoleClassType"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Attribute" upperBound="-1"
         eType="#//Attribute" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Characterizes properties of the RoleClass."/>
@@ -734,7 +734,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="externalInterface" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ExternalInterface" upperBound="-1"
         eType="#//ExternalInterface" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Description of an external interface."/>
@@ -745,7 +745,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refBaseClassPath" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RefBaseClassPath" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Stores the reference of a class to its base class. References contain the full path to the refered class object."/>
       </eAnnotations>
@@ -754,8 +754,8 @@
         <details key="name" value="RefBaseClassPath"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="baseClass" eType="#//RoleClass"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="roleClass" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="BaseClass" eType="#//RoleClass"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="RoleClass" upperBound="-1"
         eType="#//RoleClass" containment="true" resolveProxies="false"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RoleFamily" eSuperTypes="#//RoleClass">
@@ -772,7 +772,7 @@
       <details key="name" value="RoleRequirements_._type"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Attribute" upperBound="-1"
         eType="#//Attribute" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Characterizes properties of the RoleRequirements."/>
@@ -783,7 +783,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="externalInterface" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ExternalInterface" upperBound="-1"
         eType="#//InterfaceClass" containment="true" resolveProxies="false">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="kind" value="element"/>
@@ -791,7 +791,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="mappingObject" eType="#//Mapping"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="MappingObject" eType="#//Mapping"
         containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Host element for AttributeNameMapping and InterfaceIDMapping."/>
@@ -802,9 +802,9 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="roleClass" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="RoleClass" lowerBound="1"
         eType="#//RoleClass"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refBaseRoleClassPath" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RefBaseRoleClassPath" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="kind" value="attribute"/>
@@ -911,7 +911,7 @@
       <details key="name" value="SupportedRoleClass_._type"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="mappingObject" eType="#//Mapping"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="MappingObject" eType="#//Mapping"
         containment="true" resolveProxies="false">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="kind" value="element"/>
@@ -919,14 +919,14 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refRoleClassPath" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RefRoleClassPath" lowerBound="1"
         eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String">
       <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
         <details key="kind" value="attribute"/>
         <details key="name" value="RefRoleClassPath"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="roleClass" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="RoleClass" lowerBound="1"
         eType="#//RoleClass"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="SystemUnitClassLib" eSuperTypes="#//CAEXObject">
@@ -934,7 +934,7 @@
       <details key="name" value="SystemUnitClassLib_._type"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="systemUnitClass" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SystemUnitClass" upperBound="-1"
         eType="#//SystemUnitClass" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Shall be used for SystemUnitClass definition, provides definition of a class of a SystemUnitClass type."/>
@@ -954,7 +954,7 @@
       <details key="name" value="SystemUnitClassType"/>
       <details key="kind" value="elementOnly"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Attribute" upperBound="-1"
         eType="#//Attribute" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Characterizes properties of the SystemUnitClass."/>
@@ -965,7 +965,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="externalInterface" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ExternalInterface" upperBound="-1"
         eType="#//InterfaceClass" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Description of an external interface."/>
@@ -976,7 +976,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="internalElement" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="InternalElement" upperBound="-1"
         eType="#//InternalElement" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Shall be used in order to define nested objects inside of a SystemUnitClass or another InternalElement. Allows description of the internal structure of a CAEX object."/>
@@ -987,7 +987,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="supportedRoleClass" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SupportedRoleClass" upperBound="-1"
         eType="#//SupportedRoleClass" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Allows the association to a RoleClass which this SystemUnitClass can play. A SystemUnitClass may reference multiple roles."/>
@@ -998,7 +998,7 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="internalLink" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="InternalLink" upperBound="-1"
         eType="#//InternalLink" containment="true" resolveProxies="false">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Shall be used in order to define the relationships between internal interfaces of InternalElements."/>
@@ -1009,10 +1009,10 @@
         <details key="namespace" value="##targetNamespace"/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="baseClass" eType="#//SystemUnitClass"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="systemUnitClass" upperBound="-1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="BaseClass" eType="#//SystemUnitClass"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SystemUnitClass" upperBound="-1"
         eType="#//SystemUnitClass" containment="true" resolveProxies="false"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refBaseClassPath" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RefBaseClassPath" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="SystemUnitFamily" eSuperTypes="#//SystemUnitClass">
     <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">

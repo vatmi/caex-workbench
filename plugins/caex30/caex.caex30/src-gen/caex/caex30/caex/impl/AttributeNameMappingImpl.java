@@ -327,9 +327,9 @@ public class AttributeNameMappingImpl extends CAEXBasicObjectImpl implements Att
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (roleAttributeName: ");
+		result.append(" (RoleAttributeName: ");
 		result.append(roleAttributeName);
-		result.append(", systemUnitAttributeName: ");
+		result.append(", SystemUnitAttributeName: ");
 		result.append(systemUnitAttributeName);
 		result.append(')');
 		return result.toString();

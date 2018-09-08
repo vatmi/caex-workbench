@@ -327,9 +327,9 @@ public class InternalLinkImpl extends CAEXObjectImpl implements InternalLink {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (refPartnerSideA: ");
+		result.append(" (RefPartnerSideA: ");
 		result.append(refPartnerSideA);
-		result.append(", refPartnerSideB: ");
+		result.append(", RefPartnerSideB: ");
 		result.append(refPartnerSideB);
 		result.append(')');
 		return result.toString();

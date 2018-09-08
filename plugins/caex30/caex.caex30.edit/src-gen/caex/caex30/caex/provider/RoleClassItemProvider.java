@@ -65,8 +65,8 @@ public class RoleClassItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_RoleClass_refBaseClassPath_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_RoleClass_refBaseClassPath_feature", "_UI_RoleClass_type"),
+				 getString("_UI_RoleClass_RefBaseClassPath_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_RoleClass_RefBaseClassPath_feature", "_UI_RoleClass_type"),
 				 CAEXPackage.Literals.ROLE_CLASS__REF_BASE_CLASS_PATH,
 				 true,
 				 false,
@@ -87,8 +87,8 @@ public class RoleClassItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_RoleClass_baseClass_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_RoleClass_baseClass_feature", "_UI_RoleClass_type"),
+				 getString("_UI_RoleClass_BaseClass_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_RoleClass_BaseClass_feature", "_UI_RoleClass_type"),
 				 CAEXPackage.Literals.ROLE_CLASS__BASE_CLASS,
 				 true,
 				 false,

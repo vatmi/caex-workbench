@@ -65,8 +65,8 @@ public class InternalElementItemProvider extends SystemUnitClassItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_InternalElement_refBaseSystemUnitPath_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_InternalElement_refBaseSystemUnitPath_feature", "_UI_InternalElement_type"),
+				 getString("_UI_InternalElement_RefBaseSystemUnitPath_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_InternalElement_RefBaseSystemUnitPath_feature", "_UI_InternalElement_type"),
 				 CAEXPackage.Literals.INTERNAL_ELEMENT__REF_BASE_SYSTEM_UNIT_PATH,
 				 true,
 				 false,
@@ -87,8 +87,8 @@ public class InternalElementItemProvider extends SystemUnitClassItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_InternalElement_baseSystemUnit_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_InternalElement_baseSystemUnit_feature", "_UI_InternalElement_type"),
+				 getString("_UI_InternalElement_BaseSystemUnit_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_InternalElement_BaseSystemUnit_feature", "_UI_InternalElement_type"),
 				 CAEXPackage.Literals.INTERNAL_ELEMENT__BASE_SYSTEM_UNIT,
 				 true,
 				 false,

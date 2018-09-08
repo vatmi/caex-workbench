@@ -65,8 +65,8 @@ public class SystemUnitClassItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_SystemUnitClass_baseClass_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_SystemUnitClass_baseClass_feature", "_UI_SystemUnitClass_type"),
+				 getString("_UI_SystemUnitClass_BaseClass_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_SystemUnitClass_BaseClass_feature", "_UI_SystemUnitClass_type"),
 				 CAEXPackage.Literals.SYSTEM_UNIT_CLASS__BASE_CLASS,
 				 true,
 				 false,
@@ -87,8 +87,8 @@ public class SystemUnitClassItemProvider extends CAEXObjectItemProvider {
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_SystemUnitClass_refBaseClassPath_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_SystemUnitClass_refBaseClassPath_feature", "_UI_SystemUnitClass_type"),
+				 getString("_UI_SystemUnitClass_RefBaseClassPath_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_SystemUnitClass_RefBaseClassPath_feature", "_UI_SystemUnitClass_type"),
 				 CAEXPackage.Literals.SYSTEM_UNIT_CLASS__REF_BASE_CLASS_PATH,
 				 true,
 				 false,
@@ -212,11 +212,6 @@ public class SystemUnitClassItemProvider extends CAEXObjectItemProvider {
 			(createChildParameter
 				(CAEXPackage.Literals.SYSTEM_UNIT_CLASS__EXTERNAL_INTERFACE,
 				 CAEXFactory.eINSTANCE.createInterfaceClass()));
-
-		newChildDescriptors.add
-			(createChildParameter
-				(CAEXPackage.Literals.SYSTEM_UNIT_CLASS__EXTERNAL_INTERFACE,
-				 CAEXFactory.eINSTANCE.createExternalInterface()));
 
 		newChildDescriptors.add
 			(createChildParameter

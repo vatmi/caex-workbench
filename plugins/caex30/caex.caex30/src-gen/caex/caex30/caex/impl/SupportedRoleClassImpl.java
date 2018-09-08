@@ -295,7 +295,7 @@ public class SupportedRoleClassImpl extends CAEXBasicObjectImpl implements Suppo
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
-		result.append(" (refRoleClassPath: ");
+		result.append(" (RefRoleClassPath: ");
 		result.append(refRoleClassPath);
 		result.append(')');
 		return result.toString();
